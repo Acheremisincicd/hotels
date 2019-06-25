@@ -1,0 +1,58 @@
+﻿@model IEnumerable<HotelServices.WEB.Models.BookingApplicationViewModel>
+
+@{
+    ViewBag.Title = "Мои заявки";
+}
+
+<div class="cab">
+    @Html.ActionLink("Мой профиль", "PersonalAccount", new { UserEmail = User.Identity.Name })
+    @Html.ActionLink("Мои сообщения", "MyMessageList", new { UserEmail = User.Identity.Name })
+    @Html.ActionLink("Мои бронирования", "MyBookingList", new { UserEmail = User.Identity.Name })
+    @Html.ActionLink("Мои заявки", "MyApplicationList", new { UserEmail = User.Identity.Name })
+</div>
+
+<div class="content">
+    <table class="App">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Seats)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Class)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CheckIn)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CheckOut)
+            </th>
+        </tr>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Id)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Seats)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Class)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CheckIn).ToString().Substring(0, 10)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CheckOut).ToString().Substring(0, 10)
+                </td>
+                <td>
+                    @Html.ActionLink("Отменить", "Cancel", new { id = item.Id }, new { @class = "choise" })
+                </td>
+            </tr>
+        }
+    </table>
+</div>
+

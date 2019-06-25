@@ -1,0 +1,31 @@
+﻿@model HotelServices.WEB.Models.UserViewModel
+
+@{
+    ViewBag.Title = "Пополнение счёта";
+}
+
+<div class="cab">
+    @Html.ActionLink("Мой профиль", "PersonalAccount", new { UserEmail = User.Identity.Name })
+    @Html.ActionLink("Мои сообщения", "MyMessageList", new { UserEmail = User.Identity.Name })
+    @Html.ActionLink("Мои бронирования", "MyBookingList", new { UserEmail = User.Identity.Name })
+    @Html.ActionLink("Мои заявки", "MyApplicationList", new { UserEmail = User.Identity.Name })
+</div>
+<div class="content">
+    <div class="adding">
+        @using (Html.BeginForm())
+        {
+            @Html.ValidationSummary(true)
+            @Html.HiddenFor(model => model.Id)
+            @Html.HiddenFor(model => model.Address)
+            @Html.HiddenFor(model => model.ClientName)
+            <input type="hidden" name="oldValue" value="@Model.СashAccount" />
+            <div>Ваш текущий счет: @Model.СashAccount грн.</div>
+            <div>Введите сумму депозита: </div>
+            <div>
+                @Html.EditorFor(model => model.СashAccount)
+                @Html.ValidationMessageFor(model => model.СashAccount)
+            </div>
+            <input type="submit" value="Пополнить" class="subm" />
+        }
+    </div>
+</div>

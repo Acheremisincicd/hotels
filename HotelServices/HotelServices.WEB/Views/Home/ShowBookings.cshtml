@@ -1,0 +1,77 @@
+﻿@model IEnumerable<HotelServices.WEB.Models.BookingViewModel>
+
+@{
+    ViewBag.Title = "Бронирования";
+}
+
+<h2>Список бронирований</h2>
+
+<table class="bFM">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Id)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Time)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.UserEmail)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CheckIn)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CheckOut)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Sum)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.RoomId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Room.Class)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Room.Seats)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.IsPaid)
+        </th>
+    </tr>
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Id)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Time).ToString().Substring(0, 16)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.UserEmail)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CheckIn).ToString().Substring(0, 10)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CheckOut).ToString().Substring(0, 10)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Sum)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.RoomId)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Room.Class)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Room.Seats)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.IsPaid)
+        </td>
+    </tr>
+}
+
+</table>

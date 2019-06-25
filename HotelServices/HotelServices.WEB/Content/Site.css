@@ -1,0 +1,372 @@
+﻿body {
+    margin: 0;
+    height: 100%;
+    background-color: #d8ffd8;
+}
+header {
+    width: 100%;
+    text-align: center;
+    background-image: url(images/head.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+h2 {
+    font-family: 'Playball', cursive;
+}
+#title {
+    letter-spacing: 3px;
+    font-family:'Californian FB';
+}
+.left{
+    float: left;
+    width:25%;
+    text-align:right;
+}
+.left>p{
+    font: 24pt Bookman;
+}
+.right{
+    float: right;
+    width:70%;
+}
+.right>p{
+    font: 14pt Verdana;
+}
+table{
+    text-align: center;
+}
+#main {
+    width: 80%;
+    margin-left: 10%;
+    background-color: #bbffb8;
+    padding-bottom: 20px;
+}
+#main::after {
+    display: block;
+    clear: both;
+    content: "";
+}
+nav{
+    text-align: center;
+}
+nav>a{
+    display: inline-block;
+    height: 30px;
+    width: 163px;
+    text-decoration: none;
+    background-color: #9ac4ea;
+    color: black;
+    font-family: Arial;
+}
+.short{
+    width: 115px;
+}
+nav>a:hover{
+    background-color: #397ab2;
+    color: white;
+}
+h1{
+    margin:0;
+    text-align: center;
+}
+#up {
+    text-decoration: none;
+    border: 3px solid black;
+    color: black;
+    font: 15pt Arial;
+    font-weight: 700;
+}
+#copyright {
+    font: 13pt Impact;
+    margin-bottom: 10px;
+    letter-spacing: 3px;
+}
+footer {
+    margin-left: 10%;
+}
+h2{
+    margin: 0;
+    margin-left: 30px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+.info {
+    margin-left: 30px;
+    font: 14pt Arial;
+}
+.roomsImages{
+    height: 350px;
+    width: 600px;
+    margin-left: 30px;
+}
+.roomsImages + a{
+    display: block;
+    height: 30px;
+    width: 150px;
+    text-decoration: none;
+    color: #0d8800;
+    font: 14pt Verdana;
+    border: 3px #0d8800 solid;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+#auth {
+    text-align: right;
+    margin-top: 220px;
+    background-color: #397ab2;
+}
+.adminPanel {
+    width: 230px;
+}
+.fields{
+    margin-left: 30px;
+}
+.subm {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 30px;
+    background: linear-gradient(to left top, #0d8800, #d8ffd8);
+    border: 2px #0d8800 solid;
+    border-radius: 5px;
+    font: 10pt Verdana;
+}
+hr {
+    height: 3px;
+    background-color: #0d8800;
+}
+h3{
+    margin-top: 10px;
+    margin-bottom : 10px;
+}
+.contacts {
+    font: 13pt Arial;
+}
+.toRooms {
+    margin-left: 30px;
+    color: black;
+    font: 14pt Arial;
+}
+.list {
+    margin-left: 30px;
+    font: 14pt Arial;
+    border-spacing: 10px;
+}
+.ddl {
+    font: 13pt Arial;
+    background-color: #d8ffd8;
+}
+.sortAction {
+    color: #0d8800;
+    border: 2px #0d8800 solid;
+    text-decoration: none;
+}
+.field-validation-error {
+    color: #f00;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+.input-validation-error {
+    border: 1px solid #f00;
+    background-color: #fee;
+}
+
+.validation-summary-errors {
+    font-weight: bold;
+    color: #f00;
+}
+
+.validation-summary-errors > ul{
+    list-style-type: none;
+    padding-left: 0px;
+    font-size: 14pt;
+}
+.validation-summary-valid {
+    display: none;
+}
+
+.line {
+    color: white;
+    font: 12pt Verdana;
+    font-weight: 700;
+}
+.acc {
+    font: 14pt Verdana;
+    color: white;
+    text-decoration: none;    
+}
+.sort {
+    margin-left: 30px;
+    margin-bottom: 20px;
+    font: 13pt Arial;
+}
+.gallery{
+    width: 500px;
+    height: 320px;
+    float: left;
+    margin-bottom: 5px;
+    margin-left:5px;
+}
+.refuse {
+    margin-left: 30px;
+    padding-bottom: 30px;
+    font: 12pt Arial;
+    text-decoration: none;
+    font-weight: 700;
+    color: #0d8800;
+}
+.cab{
+    float: left;
+    width: 23%;
+}
+.cab>a{
+    display: block;
+    font: 12pt Verdana;
+    text-decoration: none;
+    width: 200px;
+    height: 30px;
+    background: linear-gradient(to left top, #0d8800, #d8ffd8);
+    color: black;
+    padding-left: 30px;
+    margin-left: 30px;
+}
+.content {
+    width: 70%;
+    font: 13pt Arial;
+    float: left;
+    margin-left: 30px;
+}
+.fTH {
+    width: 20%;
+    text-align: center;
+}
+.sTH {
+    width: 75%;
+}
+input[type=checkbox] {
+    width: 28px;
+    height: 28px;
+    margin: 20px auto;
+    background: #fcfff4;
+    background: linear-gradient(top, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
+    border-radius: 50px;
+    box-shadow: inset 0px 1px 1px white, 0px 1px 3px rgba(0,0,0,0.5);
+}
+#allB{
+    margin-left: 5px;
+}
+#personalInfo {
+    margin-left: 30px;
+    margin-top: 10px;
+    font: 13pt Verdana;
+}
+#personalInfo>div>a{
+    margin-left: 10px;
+    text-decoration: none;
+    font-weight: 700;
+    color: #0d8800;
+}
+#personalInfo>div{
+    float: right;
+}
+.adding{
+    margin-top: 5px;
+    margin-left: 30px;
+}
+.books {
+    font: 11.7pt Arial;
+    border-spacing: 0px;
+}
+#toSort{
+    text-decoration: none;
+    color: #0d8800;
+    display: block;
+    margin-left: 30px;
+    padding-bottom: 20px;
+    font: 14pt Verdana;
+}
+.choise {
+    font: 12pt Arial;
+    display: block;
+    text-decoration: none;
+    font-weight: 700;
+    color: #0d8800;
+    margin-bottom: 5px;
+}
+.choiseN {
+    font: 12pt Arial;
+    display: block;
+    text-decoration: none;
+    font-weight: 700;
+    color: red;
+}
+.Mes{
+    text-align: unset;
+}
+.App{
+    margin-left: 30px;
+    font: 14pt Arial;
+    border-spacing: 10px;
+}
+.bFM {    
+    font: 13pt Arial;
+    border-spacing: 10px;
+}
+.chooseRoom {
+    font: 15pt Arial;
+    text-decoration: none;
+    font-weight: 700;
+    color: #0d8800;
+}
+.publDate {
+    font: 9pt Verdana;
+}
+.userReview>b {
+    letter-spacing: 2px;
+}
+.review {
+    margin-left: 30px;
+    font: 14pt Arial;
+}
+.textReview{
+    margin-top: 20px;
+}
+.wLC {
+    margin-left: 30px;
+    margin-top: 20px;
+    font: 15pt Arial;
+    font-weight: 700;
+}
+.wLC>a{
+    color: black;
+}
+#actions{
+    padding-top: 20px;
+    margin-left: 30px;
+}
+.bFA {
+    font: 11pt Arial;
+    border-spacing: 10px;
+}
+.sure {
+    font: 15pt Arial;
+    font-weight: 700;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+.choise2 {
+    font: 14pt Arial;
+    float: left;
+    text-decoration: none;
+    font-weight: 700;
+    color: #0d8800;
+    margin-left: 40px;
+}
+.delete{
+    float: right;
+    margin-right: 30px;
+    display: block;
+}

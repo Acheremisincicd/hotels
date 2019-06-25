@@ -1,0 +1,41 @@
+﻿@using HotelServices.WEB.Models
+@model List<HotelServices.WEB.Models.RoomViewModel>
+
+@{
+    ViewBag.Title = "Номера";
+}
+
+<h2>Наши номера</h2>
+@using (Html.BeginForm("Sorting","Home"))
+{
+    <a id="toSort" href="#">Сортировка🡇</a>
+    <div class="sort">
+        Сортировать по:  
+        @Html.DropDownList("criterion", new List<SelectListItem>
+        {
+            new SelectListItem { Value = "Class", Text = "классу" },
+            new SelectListItem { Value = "Seats" , Text = "местам" },
+            new SelectListItem { Value = "Price" , Text = "стоимости за сутки" },
+            new SelectListItem { Value = "Status" , Text = "статусу" },
+            new SelectListItem { Value = "Id" , Text = "номеру комнаты" }
+        },new { @class = "ddl" })
+        Направление:  @Html.DropDownList("way", new List<SelectListItem>
+        {
+            new SelectListItem { Value = "up" , Text = "по возрастанию" },
+            new SelectListItem { Value = "down" , Text = "по убыванию" }
+        },new {@class="ddl" })
+        <input type="submit" value="Сортировать" class="subm"/>
+    </div>
+}
+@foreach (RoomViewModel item in Model)
+{
+    <div class="info"><b>@Html.DisplayNameFor(model => item.Id)</b> : @Html.DisplayFor(model => item.Id)</div>
+    <div class="info"><b>@Html.DisplayNameFor(model => item.Class)</b> : @Html.DisplayFor(model => item.Class)</div>
+    <div class="info"><b>@Html.DisplayNameFor(model => item.Seats)</b> : @Html.DisplayFor(model => item.Seats)</div>
+    <div class="info"><b>@Html.DisplayNameFor(model => item.Price)</b> : @Html.DisplayFor(model => item.Price)</div>
+    <div class="info"><b>@Html.DisplayNameFor(model => item.Status)</b> : @Html.DisplayFor(model => item.Status)</div>
+    <div class="roomsImages"><img height="350" width="600" src="@item.ImageURL" /></div>
+    @Html.ActionLink("Забронировать", "ToBook", new { id = item.Id, UserEmail = User.Identity.Name })
+    <hr noshade />
+}
+<script type="text/javascript" src="~/Scripts/script.js"></script>

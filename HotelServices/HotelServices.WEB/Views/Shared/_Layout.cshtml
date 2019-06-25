@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">   
+    <title>@ViewBag.Title</title>
+    @Styles.Render("~/Content/Site.css")
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+</head>
+<body>
+    <div id="wrapper">
+        <a name="top"></a>
+        <header>
+            <a href="/Home/Main" id="imgLink"><img src="~/Content/images/logo.png" title="На главную" alt="Hotel Logo" /></a>
+            <div id="auth">
+                @if (!User.Identity.IsAuthenticated)
+                {
+                    @Html.ActionLink("Зарегистрироваться", "Register", "Account",null ,new { @class="acc"}) <b class="line">|</b>
+                    @Html.ActionLink("Войти", "Login", "Account",null ,new { @class="acc"})
+                }
+                @if (User.Identity.IsAuthenticated)
+                {
+                    <span class="acc">Вы вошли как @User.Identity.Name </span> <b class="line">|</b>
+                    <span>@Html.ActionLink("Личный кабинет", "PersonalAccount", "Account", null ,new { @class="acc"})</span><b class="line">|</b>
+                    @Html.ActionLink("Выйти", "Logout", "Account",null, new { @class="acc"})                    
+                }
+            </div>
+        </header>
+        <nav>
+            @Html.ActionLink("Главная", "Main", "Home",null, new { @class="short"})
+            @Html.ActionLink("Номера", "Rooms", "Home", null, new { @class = "short" })
+            @Html.ActionLink("Отзывы", "ShowReviews", "Review", null, new { @class = "short" })
+            @Html.ActionLink("Оставить заявку", "LeaveApplication", "Application")
+            @Html.ActionLink("Контакты", "Contacts", "Info", null, new { @class = "short" })            
+            @Html.ActionLink("Галерея", "Gallery", "Info", null, new { @class = "short" })
+            @Html.ActionLink("Правила", "Rules", "Info", null, new { @class = "short" })           
+            @if (User.IsInRole("admin") || User.IsInRole("manager"))
+            {
+                @Html.ActionLink("Заявки бронирования", "ShowApplications", "Application")
+                @Html.ActionLink("Все бронирования", "ShowBookings", "Home",null, new {@id="allB"})
+            }
+            @if (User.IsInRole("admin"))
+            {
+                @Html.ActionLink("Панель администрирования", "Actions", "Admin/Admin", null, new { @class = "adminPanel" })
+            }
+        </nav>
+        <div id="main">
+            @RenderBody()
+        </div>
+        <footer>
+            <div id="copyright">© Бондаренко Виталий - @DateTime.Now.Year</div>
+            <a href="#top" id="up">^ Back to top</a>
+        </footer>
+    </div>
+</body>
+</html>

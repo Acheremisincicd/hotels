@@ -1,0 +1,44 @@
+﻿@model HotelServices.WEB.Models.BookingViewModel
+
+@{
+    ViewBag.Title = "Подтверждение отмены";
+}
+
+<div class="fields">
+    <div class="sure">Вы уверены что хотите отменить бронирование №@Model.Id на пользователя @Model.UserEmail? </div>
+    <div id="personalInfo">
+        <b>Время бронирования:</b> @Model.Time.ToString().Substring(0, 16)<br />
+        <b>Дата въезда:</b> @Model.CheckIn.ToString().Substring(0, 10)<br />
+        <b>Дата выезда:</b> @Model.CheckOut.ToString().Substring(0, 10)<br />
+        <b>Сумма заказа:</b> @Model.Sum<br />
+        <b>Номер комнаты:</b> @Model.RoomId<br />
+        <b>Класс:</b> @Model.Room.Class<br />
+        <b>Количество мест:</b> @Model.Room.Seats<br />
+    </div>
+
+    @if (Model.IsPaid)
+    {
+        <div style="color: red" class="sure">
+            Внимание! Бронирование уже было оплачено пользователем! При отмене пользователь будет уведомлен
+            об отмене бронирования и на его счет будут возвращены средства, потраченные на бронирование.
+        </div>
+    }
+    else
+    {
+        <div style="color: red" class="sure">
+            При отмене пользователь будет уведомлен об отмене бронирования.
+        </div>
+    }
+    @Html.ActionLink("Вернуться назад", "Bookings", "Admin", null, new { @class = "choise2" })
+</div>
+<form method="post" action="/Admin/Admin/Cancel">
+    @Html.HiddenFor(model => model.Id)
+    <input type="hidden" name="Address" value="@ViewBag.Address" />
+    <input type="hidden" name="ClientName" value="@ViewBag.ClientName" />
+    <input type="hidden" name="Email" value="@ViewBag.Email" />
+    <input type="hidden" name="Password" value="@ViewBag.Password" />
+    <input type="hidden" name="Role" value="@ViewBag.Role" />
+    <input type="hidden" name="UserName" value="@ViewBag.UserName" />
+    <input type="hidden" name="СashAccount" value="@ViewBag.СashAccount" />
+    <input type="submit" style="margin-left: 30px;" value="Подтвердить отмену бронирования" class="subm" />
+</form>

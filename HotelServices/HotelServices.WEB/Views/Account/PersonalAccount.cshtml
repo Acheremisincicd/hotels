@@ -1,0 +1,23 @@
+﻿@model HotelServices.WEB.Models.UserViewModel
+
+@{
+    ViewBag.Title = "Личный кабинет";
+}
+
+<div class="cab">
+    @Html.ActionLink("Мой профиль", "PersonalAccount", new { UserEmail = User.Identity.Name })
+    @Html.ActionLink("Мои сообщения", "MyMessageList", new { UserEmail = User.Identity.Name })
+    @Html.ActionLink("Мои бронирования", "MyBookingList", new { UserEmail = User.Identity.Name })
+    @Html.ActionLink("Мои заявки", "MyApplicationList", new { UserEmail = User.Identity.Name })
+</div>
+<div class="content">
+    <div id="personalInfo">
+        <b>Имя на сайте:</b> @Model.UserName <br />
+        <b>Почта:</b> @Model.Email <br />
+        <b>Ваше имя:</b> @Model.ClientName <br />
+        <b>Адрес:</b> @Model.Address <br />
+        <div>
+            <b>Текущий баланс:</b> @Model.СashAccount грн. @Html.ActionLink("Пополнить счёт", "Deposit")
+        </div>
+    </div>
+</div>

@@ -1,0 +1,28 @@
+﻿@model HotelServices.WEB.Models.BookingApplicationViewModel
+
+@{
+    ViewBag.Title = "Успешная отправка заявки";
+}
+
+<h2>Ваша заявка была успешно отправлена: </h2>
+<div class="fields">
+    <div>
+        Класс: @Model.Class
+    </div>
+    <div>
+        Количество мест: @Model.Seats
+    </div>
+    <div>
+        Дата въезда: @Model.CheckIn.ToString().Substring(0, 10)
+    </div>
+    <div>
+        Дата выезда: @Model.CheckOut.ToString().Substring(0, 10)
+    </div>
+    <div style="margin-top: 30px;">
+        <h3>
+            Ожидайте, когда менеджер ответит Вам на заявку. Ответ отобразится во вкладке
+            «Мои сообщения» в личном кабинете пользователя.
+        </h3>
+    </div>
+</div>
+

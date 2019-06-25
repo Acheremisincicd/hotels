@@ -1,0 +1,19 @@
+﻿@model IEnumerable<HotelServices.WEB.Models.RoomViewModel>
+
+@{
+    ViewBag.Title = "Номера для бронирования менеджером";
+}
+
+<h2>Подберите номер в соответствии с запросом</h2>
+
+@foreach (var item in Model)
+{
+    <div class="info"><b>@Html.DisplayNameFor(model => model.Class)</b> : @Html.DisplayFor(modelItem => item.Class)</div>
+    <div class="info"><b>@Html.DisplayNameFor(model => model.Seats)</b> : @Html.DisplayFor(modelItem => item.Seats)</div>
+    <div class="info"><b>@Html.DisplayNameFor(model => model.Price)</b> : @Html.DisplayFor(modelItem => item.Price)</div>
+    <div class="info"><b>@Html.DisplayNameFor(model => model.Status)</b> : @Html.DisplayFor(modelItem => item.Status)</div>
+    <div class="roomsImages"><img height="350" width="600" src="@item.ImageURL" /></div>
+    @Html.ActionLink("Подобрать", "ToBookForManager", new { RoomId = item.Id, ApplicationId = ViewBag.ApplicationId }, new { @style= "width: 105px;" })
+    <hr noshade />
+}
+

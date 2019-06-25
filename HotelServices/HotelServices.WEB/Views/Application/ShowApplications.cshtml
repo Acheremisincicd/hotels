@@ -1,0 +1,56 @@
+﻿@model IEnumerable<HotelServices.WEB.Models.BookingApplicationViewModel>
+
+@{
+    ViewBag.Title = "Заявки на бронирование";
+}
+
+<h2>Все заявки: </h2>
+
+<table class="list">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Id)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Seats)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Class)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CheckIn)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CheckOut)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.UserEmail)
+        </th>
+    </tr>
+    @foreach (var item in Model)
+    {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Id)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Seats)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Class)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CheckIn).ToString().Substring(0, 10)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CheckOut).ToString().Substring(0, 10)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.UserEmail)
+        </td>
+        <td>
+            @Html.ActionLink("Подобрать номер", "RoomsForManager", new { ApplicationId = item.Id }, new { @class = "chooseRoom" })
+        </td>
+    </tr>
+    }
+</table>

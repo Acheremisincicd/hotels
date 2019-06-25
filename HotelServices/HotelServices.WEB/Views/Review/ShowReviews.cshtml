@@ -1,0 +1,37 @@
+﻿@model IEnumerable<HotelServices.WEB.Models.ReviewViewModel>
+
+@{
+    ViewBag.Title = "Отзывы";
+}
+
+<h2>Отзывы пользователей</h2>
+
+@foreach (var item in Model)
+{
+    <div class="review">
+        <div class="publDate">
+            @Html.DisplayFor(modelItem => item.PublDate).ToString().Substring(0, 16)
+        </div>
+        @if (User.IsInRole("admin") || (User.IsInRole("user") && item.UserEmail == User.Identity.Name))
+        {
+            <a href="/Review/DeleteReview/@item.Id" class="delete">
+                <img src="~/Content/images/delete.ico" width="25" height="25"/>
+            </a>
+        }
+        <div class="userReview">
+            <b>@Html.DisplayFor(modelItem => item.UserEmail)</b> пишет:
+        </div>
+        <div class="textReview">
+            @Html.DisplayFor(modelItem => item.Text)
+        </div>
+    </div>
+    <hr noshade style="width: 94%;" />
+}
+@if (User.Identity.IsAuthenticated)
+{
+    @Html.Partial("AddReview")
+}
+else
+{
+    <div class="wLC">Чтобы оставлять отзывы, <a href="/Account/Login">войдите на сайт!</a></div>
+}

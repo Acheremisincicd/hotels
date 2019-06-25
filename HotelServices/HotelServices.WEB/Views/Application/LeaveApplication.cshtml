@@ -1,0 +1,64 @@
+﻿@model HotelServices.WEB.Models.BookingApplicationViewModel
+
+@{
+    ViewBag.Title = "Заявка";
+}
+
+<h2>Опишите желаемый номер, чтобы мы подобрали его Вам</h2>
+@using (Html.BeginForm())
+{
+<div class="fields">
+    @Html.ValidationSummary(true)
+    <div>
+        @Html.LabelFor(model => model.Seats)
+        <div>
+            @Html.DropDownListFor(model => model.Seats,
+            new List<SelectListItem>
+                {
+                new SelectListItem { Value = "1" , Text = "1" },
+                new SelectListItem { Value = "2" , Text = "2" },
+                new SelectListItem { Value = "3" , Text = "3" },
+                new SelectListItem { Value = "4" , Text = "4" },
+                new SelectListItem { Value = "5" , Text = "5" }
+                })
+        </div>
+    </div>
+
+    <div>
+        @Html.LabelFor(model => model.Class)
+        <div>
+            @Html.DropDownListFor(model => model.Class,
+            new List<SelectListItem>
+                {
+                new SelectListItem { Value = "Standart" , Text = "Standart" },
+                new SelectListItem { Value = "Family" , Text = "Family" },
+                new SelectListItem { Value = "Business" , Text = "Business" },
+                new SelectListItem { Value = "Apartaments" , Text = "Apartaments" },
+                new SelectListItem { Value = "Luxe" , Text = "Luxe" },
+                new SelectListItem { Value = "President" , Text = "President" }
+                })
+        </div>
+    </div>
+
+    <div>
+        @Html.LabelFor(model => model.CheckIn)
+        <div>
+            <input type="date" name="CheckIn" min="@DateTime.Now.ToString("yyyy/MM/dd").Substring(0, 10).Replace(".", "-")" max="@DateTime.Now.AddMonths(1).ToString("yyyy/MM/dd").Substring(0, 10).Replace(".", "-")" value="@DateTime.Now.ToString("yyyy/MM/dd").Substring(0, 10).Replace(".", "-")"/>
+            @Html.ValidationMessageFor(model => model.CheckIn)
+        </div>
+    </div>
+
+    <div>
+        @Html.LabelFor(model => model.CheckOut)
+        <div>
+            <input type="date" name="CheckOut" min="@DateTime.Now.AddDays(1).ToString("yyyy/MM/dd").Substring(0, 10).Replace(".", "-")" max="@DateTime.Now.AddMonths(1).ToString("yyyy/MM/dd").Substring(0, 10).Replace(".", "-")" value="@DateTime.Now.AddDays(1).ToString("yyyy/MM/dd").Substring(0, 10).Replace(".", "-")"/>
+            @Html.ValidationMessageFor(model => model.CheckOut)
+        </div>
+    </div>
+    <input type="hidden" name="UserEmail" value="@User.Identity.Name" />   
+    <div>
+        <input type="submit" value="Сделать запрос" class="subm" />
+    </div>
+</div>
+}
+

@@ -1,0 +1,41 @@
+2018-02-09 11:48:32.2773 | ERROR | Action: [Main], Controller: [Home], Type: [AutoMapper.AutoMapperMappingException], Message: [Error mapping types.
+
+Mapping types:
+IEnumerable`1 -> List`1
+System.Collections.Generic.IEnumerable`1[[HotelServices.DAL.Entities.Booking, HotelServices.DAL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.List`1[[HotelServices.BLL.DTO.BookingDTO, HotelServices.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]] 
+2018-02-09 11:49:01.1280 | ERROR | Action: [Main], Controller: [Home], Type: [AutoMapper.AutoMapperMappingException], Message: [Error mapping types.
+
+Mapping types:
+IEnumerable`1 -> List`1
+System.Collections.Generic.IEnumerable`1[[HotelServices.DAL.Entities.Booking, HotelServices.DAL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.List`1[[HotelServices.BLL.DTO.BookingDTO, HotelServices.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]] 
+2018-02-09 11:50:33.1512 | ERROR | Action: [Main], Controller: [Home], Type: [AutoMapper.AutoMapperMappingException], Message: [Error mapping types.
+
+Mapping types:
+IEnumerable`1 -> List`1
+System.Collections.Generic.IEnumerable`1[[HotelServices.DAL.Entities.Booking, HotelServices.DAL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.List`1[[HotelServices.BLL.DTO.BookingDTO, HotelServices.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]] 
+2018-02-09 13:48:09.4755 | ERROR | Action: [ToBook], Controller: [Home], Type: [HotelServices.BLL.Infrastructure.ValidationException], Message: [Комната не найдена] 
+2018-02-09 13:48:09.4975 | ERROR | Action: [ToBook], Controller: [Home], Type: [HotelServices.BLL.Infrastructure.ValidationException], Message: [Комната не найдена] 
+2018-02-09 13:48:09.5025 | ERROR | Action: [ToBook], Controller: [Home], Type: [HotelServices.BLL.Infrastructure.ValidationException], Message: [Комната не найдена] 
+2018-02-13 00:08:09.3041 | ERROR | Action: [ToBook], Controller: [Home], Type: [HotelServices.BLL.Infrastructure.ValidationException], Message: [Комната не найдена] 
+2018-02-13 00:08:09.3481 | ERROR | Action: [ToBook], Controller: [Home], Type: [HotelServices.BLL.Infrastructure.ValidationException], Message: [Комната не найдена] 
+2018-02-13 00:08:09.3481 | ERROR | Action: [ToBook], Controller: [Home], Type: [HotelServices.BLL.Infrastructure.ValidationException], Message: [Комната не найдена] 
+2018-02-13 00:08:38.6408 | ERROR | Action: [ToBook], Controller: [Home], Type: [HotelServices.BLL.Infrastructure.ValidationException], Message: [Комната не найдена] 
+2018-02-13 00:08:38.6408 | ERROR | Action: [ToBook], Controller: [Home], Type: [HotelServices.BLL.Infrastructure.ValidationException], Message: [Комната не найдена] 
+2018-02-13 00:08:38.6408 | ERROR | Action: [ToBook], Controller: [Home], Type: [HotelServices.BLL.Infrastructure.ValidationException], Message: [Комната не найдена] 
+2018-02-13 12:19:15.4737 | ERROR | Action: [PaymentСonfirmation], Controller: [Account], Type: [System.InvalidOperationException], Message: [Mapper already initialized. You must call Initialize once per application domain/process.] 
+2018-02-13 12:19:15.4897 | ERROR | Action: [PaymentСonfirmation], Controller: [Account], Type: [System.InvalidOperationException], Message: [Mapper already initialized. You must call Initialize once per application domain/process.] 
+2018-02-13 12:19:15.4997 | ERROR | Action: [PaymentСonfirmation], Controller: [Account], Type: [System.InvalidOperationException], Message: [Mapper already initialized. You must call Initialize once per application domain/process.] 
+2018-02-13 12:24:38.3432 | ERROR | Action: [ToBookForManager], Controller: [Application], Type: [System.InvalidOperationException], Message: [Mapper not initialized. Call Initialize with appropriate configuration. If you are trying to use mapper instances through a container or otherwise, make sure you do not have any calls to the static Mapper.Map methods, and if you're using ProjectTo or UseAsDataSource extension methods, make sure you pass in the appropriate IConfigurationProvider instance.] 
+2018-02-13 12:24:38.3432 | ERROR | Action: [ToBookForManager], Controller: [Application], Type: [System.InvalidOperationException], Message: [Mapper not initialized. Call Initialize with appropriate configuration. If you are trying to use mapper instances through a container or otherwise, make sure you do not have any calls to the static Mapper.Map methods, and if you're using ProjectTo or UseAsDataSource extension methods, make sure you pass in the appropriate IConfigurationProvider instance.] 
+2018-02-13 12:24:38.3582 | ERROR | Action: [ToBookForManager], Controller: [Application], Type: [System.InvalidOperationException], Message: [Mapper not initialized. Call Initialize with appropriate configuration. If you are trying to use mapper instances through a container or otherwise, make sure you do not have any calls to the static Mapper.Map methods, and if you're using ProjectTo or UseAsDataSource extension methods, make sure you pass in the appropriate IConfigurationProvider instance.] 
+2018-02-13 12:24:50.0408 | ERROR | Action: [ToBookForManager], Controller: [Application], Type: [System.InvalidOperationException], Message: [Mapper already initialized. You must call Initialize once per application domain/process.] 
+2018-02-13 12:24:50.0528 | ERROR | Action: [ToBookForManager], Controller: [Application], Type: [System.InvalidOperationException], Message: [Mapper already initialized. You must call Initialize once per application domain/process.] 
+2018-02-13 12:24:50.0608 | ERROR | Action: [ToBookForManager], Controller: [Application], Type: [System.InvalidOperationException], Message: [Mapper already initialized. You must call Initialize once per application domain/process.] 
+2018-02-13 12:34:27.9587 | ERROR | Action: [Cancel], Controller: [Admin], Type: [System.Data.Entity.Infrastructure.DbUpdateConcurrencyException], Message: [Store update, insert, or delete statement affected an unexpected number of rows (0). Entities may have been modified or deleted since entities were loaded. See http://go.microsoft.com/fwlink/?LinkId=472540 for information on understanding and handling optimistic concurrency exceptions.] 
+2018-02-13 12:34:31.9669 | ERROR | Action: [Cancel], Controller: [Admin], Type: [HotelServices.BLL.Infrastructure.ValidationException], Message: [Бронирование не найдено] 
+2018-02-13 12:37:10.8560 | ERROR | Action: [PaymentСonfirmation], Controller: [Account], Type: [System.InvalidOperationException], Message: [Mapper already initialized. You must call Initialize once per application domain/process.] 
+2018-02-13 12:37:10.8580 | ERROR | Action: [PaymentСonfirmation], Controller: [Account], Type: [System.InvalidOperationException], Message: [Mapper already initialized. You must call Initialize once per application domain/process.] 
+2018-02-13 12:37:10.8580 | ERROR | Action: [PaymentСonfirmation], Controller: [Account], Type: [System.InvalidOperationException], Message: [Mapper already initialized. You must call Initialize once per application domain/process.] 
+2018-02-13 13:03:12.1044 | ERROR | Action: [ToBookForManager], Controller: [Application], Type: [System.InvalidOperationException], Message: [Mapper already initialized. You must call Initialize once per application domain/process.] 
+2018-02-13 13:03:12.3324 | ERROR | Action: [ToBookForManager], Controller: [Application], Type: [System.InvalidOperationException], Message: [Mapper already initialized. You must call Initialize once per application domain/process.] 
+2018-02-13 13:03:12.4414 | ERROR | Action: [ToBookForManager], Controller: [Application], Type: [System.InvalidOperationException], Message: [Mapper already initialized. You must call Initialize once per application domain/process.] 

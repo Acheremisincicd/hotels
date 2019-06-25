@@ -1,0 +1,36 @@
+﻿@model HotelServices.WEB.Models.LoginModel
+
+@{
+    ViewBag.Title = "Вход";
+}
+
+<h2>Вход</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="fields">
+        @Html.ValidationSummary(true)
+        <div>
+            @Html.LabelFor(model => model.Email)
+            <div>
+                @Html.EditorFor(model => model.Email)
+                @Html.ValidationMessageFor(model => model.Email)
+            </div>
+        </div>
+
+        <div>
+            @Html.LabelFor(model => model.Password)
+            <div>
+                @Html.EditorFor(model => model.Password)
+                @Html.ValidationMessageFor(model => model.Password)
+            </div>
+        </div>
+
+        <div>
+            <input type="submit" value="Войти" class="subm" />
+        </div>
+    </div>
+}
+

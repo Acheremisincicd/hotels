@@ -1,0 +1,1290 @@
+             -------------- Info (2018-02-08 20:29:47.0254) --------------
+             
+             Call Site: HotelServices.BLL.Services.ApplicationService.SendApplication
+             Additional Info: Заявка №0 на бронирование номера оформлена и сохранена в базу данных.
+
+             -------------- Info (2018-02-08 20:30:54.6726) --------------
+             
+             Call Site: HotelServices.BLL.Services.ApplicationService.SendApplication
+             Additional Info: Заявка №0 на бронирование номера оформлена и сохранена в базу данных.
+
+             -------------- Info (2018-02-08 20:32:59.3625) --------------
+             
+             Call Site: HotelServices.BLL.Services.ApplicationService.SendApplication
+             Additional Info: Заявка №0 на бронирование номера оформлена и сохранена в базу данных.
+
+             -------------- Info (2018-02-08 20:34:10.8191) --------------
+             
+             Call Site: HotelServices.BLL.Services.ApplicationService.SendApplication
+             Additional Info: Заявка №0 на бронирование номера оформлена и сохранена в базу данных.
+
+             -------------- Info (2018-02-08 20:39:14.4173) --------------
+             
+             Call Site: HotelServices.BLL.Services.ApplicationService.SendApplication
+             Additional Info: Заявка №0 на бронирование номера оформлена и сохранена в базу данных.
+
+             -------------- Info (2018-02-08 20:41:26.8017) --------------
+             
+             Call Site: HotelServices.BLL.Services.ApplicationService.SendApplication
+             Additional Info: Заявка №0 на бронирование номера оформлена и сохранена в базу данных.
+
+             -------------- Info (2018-02-08 20:58:57.7760) --------------
+             
+             Call Site: HotelServices.BLL.Services.ApplicationService.SendApplication
+             Additional Info: Заявка №0 на бронирование номера оформлена и сохранена в базу данных.
+
+             -------------- Info (2018-02-08 20:58:58.4861) --------------
+             
+             Call Site: HotelServices.BLL.Services.ApplicationService.GetApplications
+             Additional Info: Взяты все заявки на бронирование из базы данных.
+
+             -------------- Info (2018-02-09 01:42:46.0019) --------------
+             
+             Call Site: HotelServices.BLL.Services.ApplicationService.SendApplication
+             Additional Info: Заявка №0 на бронирование номера оформлена и сохранена в базу данных.
+
+             -------------- Info (2018-02-09 01:42:46.9541) --------------
+             
+             Call Site: HotelServices.BLL.Services.ApplicationService.GetApplications
+             Additional Info: Взяты все заявки на бронирование из базы данных.
+
+             -------------- Info (2018-02-09 01:54:49.9006) --------------
+             
+             Call Site: HotelServices.BLL.Services.ApplicationService.SendApplication
+             Additional Info: Заявка №0 на бронирование номера оформлена и сохранена в базу данных.
+
+             -------------- Info (2018-02-09 01:54:50.3288) --------------
+             
+             Call Site: HotelServices.BLL.Services.ApplicationService.GetApplications
+             Additional Info: Взяты все заявки на бронирование из базы данных.
+
+             -------------- Info (2018-02-09 01:54:50.4418) --------------
+             
+             Call Site: HotelServices.BLL.Services.BookingService.GetRooms
+             Additional Info: Взяты все комнаты из базы данных.
+
+             -------------- Info (2018-02-09 01:55:28.4336) --------------
+             
+             Call Site: HotelServices.BLL.Services.ApplicationService.SendApplication
+             Additional Info: Заявка №0 на бронирование номера оформлена и сохранена в базу данных.
+
+             -------------- Info (2018-02-09 01:55:28.8587) --------------
+             
+             Call Site: HotelServices.BLL.Services.ApplicationService.GetApplications
+             Additional Info: Взяты все заявки на бронирование из базы данных.
+
+             -------------- Info (2018-02-09 01:55:28.9777) --------------
+             
+             Call Site: HotelServices.BLL.Services.BookingService.GetRooms
+             Additional Info: Взяты все комнаты из базы данных.
+
+             -------------- Info (2018-02-09 01:59:24.8125) --------------
+             
+             Call Site: HotelServices.BLL.Services.ApplicationService.SendApplication
+             Additional Info: Заявка №0 на бронирование номера оформлена и сохранена в базу данных.
+
+             -------------- Info (2018-02-09 01:59:25.2526) --------------
+             
+             Call Site: HotelServices.BLL.Services.ApplicationService.GetApplications
+             Additional Info: Взяты все заявки на бронирование из базы данных.
+
+             -------------- Info (2018-02-09 01:59:25.3586) --------------
+             
+             Call Site: HotelServices.BLL.Services.ApplicationService.GetApplications
+             Additional Info: Взяты все заявки на бронирование из базы данных.
+
+             -------------- Info (2018-02-09 01:59:25.4416) --------------
+             
+             Call Site: HotelServices.BLL.Services.BookingService.GetRooms
+             Additional Info: Взяты все комнаты из базы данных.
+
+             -------------- Info (2018-02-09 02:02:43.9848) --------------
+             
+             Call Site: HotelServices.BLL.Services.ApplicationService.SendApplication
+             Additional Info: Заявка №0 на бронирование номера оформлена и сохранена в базу данных.
+
+             -------------- Info (2018-02-09 02:02:44.4459) --------------
+             
+             Call Site: HotelServices.BLL.Services.ApplicationService.GetApplications
+             Additional Info: Взяты все заявки на бронирование из базы данных.
+
+             -------------- Info (2018-02-09 02:02:44.5509) --------------
+             
+             Call Site: HotelServices.BLL.Services.ApplicationService.GetApplications
+             Additional Info: Взяты все заявки на бронирование из базы данных.
+
+             -------------- Info (2018-02-09 02:02:44.6029) --------------
+             
+             Call Site: HotelServices.BLL.Services.BookingService.GetRooms
+             Additional Info: Взяты все комнаты из базы данных.
+
+             -------------- Info (2018-02-09 02:04:03.6326) --------------
+             
+             Call Site: HotelServices.BLL.Services.ApplicationService.SendApplication
+             Additional Info: Заявка №0 на бронирование номера оформлена и сохранена в базу данных.
+
+             -------------- Info (2018-02-09 02:04:04.0817) --------------
+             
+             Call Site: HotelServices.BLL.Services.ApplicationService.GetApplications
+             Additional Info: Взяты все заявки на бронирование из базы данных.
+
+             -------------- Info (2018-02-09 02:04:04.1857) --------------
+             
+             Call Site: HotelServices.BLL.Services.ApplicationService.GetApplications
+             Additional Info: Взяты все заявки на бронирование из базы данных.
+
+             -------------- Info (2018-02-09 02:04:04.2327) --------------
+             
+             Call Site: HotelServices.BLL.Services.BookingService.GetRooms
+             Additional Info: Взяты все комнаты из базы данных.
+
+             -------------- Info (2018-02-09 02:06:43.0215) --------------
+             
+             Call Site: HotelServices.BLL.Services.ApplicationService.GetApplications
+             Additional Info: Взяты все заявки на бронирование из базы данных.
+
+             -------------- Info (2018-02-09 02:06:43.3306) --------------
+             
+             Call Site: HotelServices.BLL.Services.BookingService.GetRooms
+             Additional Info: Взяты все комнаты из базы данных.
+
+             -------------- Info (2018-02-09 02:10:36.3397) --------------
+             
+             Call Site: HotelServices.BLL.Services.ApplicationService.GetApplications
+             Additional Info: Взяты все заявки на бронирование из базы данных.
+
+             -------------- Info (2018-02-09 02:10:36.5287) --------------
+             
+             Call Site: HotelServices.BLL.Services.ApplicationService.GetApplications
+             Additional Info: Взяты все заявки на бронирование из базы данных.
+
+             -------------- Info (2018-02-09 02:10:36.6978) --------------
+             
+             Call Site: HotelServices.BLL.Services.BookingService.GetRooms
+             Additional Info: Взяты все комнаты из базы данных.
+
+             -------------- Info (2018-02-09 02:10:57.0288) --------------
+             
+             Call Site: HotelServices.BLL.Services.ApplicationService.GetApplications
+             Additional Info: Взяты все заявки на бронирование из базы данных.
+
+             -------------- Info (2018-02-09 02:10:57.2449) --------------
+             
+             Call Site: HotelServices.BLL.Services.BookingService.GetRooms
+             Additional Info: Взяты все комнаты из базы данных.
+
+             -------------- Info (2018-02-09 02:23:01.1054) --------------
+             
+             Call Site: HotelServices.BLL.Services.ApplicationService.GetApplications
+             Additional Info: Взяты все заявки на бронирование из базы данных.
+
+             -------------- Info (2018-02-09 02:23:01.3834) --------------
+             
+             Call Site: HotelServices.BLL.Services.ApplicationService.GetApplication
+             Additional Info: Из базы данных была взята заявка на бронирование №1.
+
+             -------------- Info (2018-02-09 02:23:01.4414) --------------
+             
+             Call Site: HotelServices.BLL.Services.BookingService.GetRooms
+             Additional Info: Взяты все комнаты из базы данных.
+
+             -------------- Info (2018-02-09 02:26:50.9727) --------------
+             
+             Call Site: HotelServices.BLL.Services.ApplicationService.GetApplications
+             Additional Info: Взяты все заявки на бронирование из базы данных.
+
+             -------------- Info (2018-02-09 02:26:51.1687) --------------
+             
+             Call Site: HotelServices.BLL.Services.ApplicationService.GetApplication
+             Additional Info: Из базы данных была взята заявка на бронирование №1.
+
+             -------------- Info (2018-02-09 02:26:51.2127) --------------
+             
+             Call Site: HotelServices.BLL.Services.BookingService.GetRooms
+             Additional Info: Взяты все комнаты из базы данных.
+
+             -------------- Info (2018-02-09 02:26:51.2477) --------------
+             
+             Call Site: HotelServices.BLL.Services.BookingService.GetRoom
+             Additional Info: Взята комната №1 из базы данных.
+
+             -------------- Info (2018-02-09 02:29:35.2865) --------------
+             
+             Call Site: HotelServices.BLL.Services.ApplicationService.GetApplications
+             Additional Info: Взяты все заявки на бронирование из базы данных.
+
+             -------------- Info (2018-02-09 02:29:35.4706) --------------
+             
+             Call Site: HotelServices.BLL.Services.ApplicationService.GetApplication
+             Additional Info: Из базы данных была взята заявка на бронирование №1.
+
+             -------------- Info (2018-02-09 02:29:35.5151) --------------
+             
+             Call Site: HotelServices.BLL.Services.BookingService.GetRooms
+             Additional Info: Взяты все комнаты из базы данных.
+
+             -------------- Info (2018-02-09 02:29:35.5486) --------------
+             
+             Call Site: HotelServices.BLL.Services.BookingService.GetRoom
+             Additional Info: Взята комната №1 из базы данных.
+
+             -------------- Info (2018-02-09 02:29:35.5786) --------------
+             
+             Call Site: HotelServices.BLL.Services.BookingService.GetBooking
+             Additional Info: Взято бронирование №1 из базы данных.
+
+             -------------- Info (2018-02-09 02:37:05.6831) --------------
+             
+             Call Site: HotelServices.BLL.Services.ApplicationService.GetApplications
+             Additional Info: Взяты все заявки на бронирование из базы данных.
+
+             -------------- Info (2018-02-09 02:37:05.8686) --------------
+             
+             Call Site: HotelServices.BLL.Services.ApplicationService.GetApplication
+             Additional Info: Из базы данных была взята заявка на бронирование №1.
+
+             -------------- Info (2018-02-09 02:37:05.9137) --------------
+             
+             Call Site: HotelServices.BLL.Services.BookingService.GetRooms
+             Additional Info: Взяты все комнаты из базы данных.
+
+             -------------- Info (2018-02-09 02:37:05.9467) --------------
+             
+             Call Site: HotelServices.BLL.Services.BookingService.GetRoom
+             Additional Info: Взята комната №1 из базы данных.
+
+             -------------- Info (2018-02-09 02:37:05.9787) --------------
+             
+             Call Site: HotelServices.BLL.Services.BookingService.GetBooking
+             Additional Info: Взято бронирование №1 из базы данных.
+
+             -------------- Info (2018-02-09 02:37:05.9987) --------------
+             
+             Call Site: HotelServices.BLL.Services.BookingService.DeleteBooking
+             Additional Info: Бронирование №1 было удалено из базы данных.
+
+             -------------- Info (2018-02-09 02:39:29.3717) --------------
+             
+             Call Site: HotelServices.BLL.Services.ApplicationService.GetApplications
+             Additional Info: Взяты все заявки на бронирование из базы данных.
+
+             -------------- Info (2018-02-09 02:39:29.5647) --------------
+             
+             Call Site: HotelServices.BLL.Services.ApplicationService.GetApplication
+             Additional Info: Из базы данных была взята заявка на бронирование №1.
+
+             -------------- Info (2018-02-09 02:39:29.5827) --------------
+             
+             Call Site: HotelServices.BLL.Services.ApplicationService.DeleteApp
+             Additional Info: Заявка №1 была удалена из базы данных.
+
+             -------------- Info (2018-02-09 02:39:29.6467) --------------
+             
+             Call Site: HotelServices.BLL.Services.BookingService.GetRooms
+             Additional Info: Взяты все комнаты из базы данных.
+
+             -------------- Info (2018-02-09 02:39:29.6807) --------------
+             
+             Call Site: HotelServices.BLL.Services.BookingService.GetRoom
+             Additional Info: Взята комната №1 из базы данных.
+
+             -------------- Info (2018-02-09 02:39:29.7217) --------------
+             
+             Call Site: HotelServices.BLL.Services.BookingService.GetBooking
+             Additional Info: Взято бронирование №1 из базы данных.
+
+             -------------- Info (2018-02-09 02:39:29.7417) --------------
+             
+             Call Site: HotelServices.BLL.Services.BookingService.DeleteBooking
+             Additional Info: Бронирование №1 было удалено из базы данных.
+
+             -------------- Info (2018-02-09 10:46:07.7003) --------------
+             
+             Call Site: HotelServices.BLL.Services.ApplicationService.GetApplications
+             Additional Info: Взяты все заявки на бронирование из базы данных.
+
+             -------------- Info (2018-02-09 10:46:08.0603) --------------
+             
+             Call Site: HotelServices.BLL.Services.ApplicationService.GetApplication
+             Additional Info: Из базы данных была взята заявка на бронирование №1.
+
+             -------------- Info (2018-02-09 10:46:08.0763) --------------
+             
+             Call Site: HotelServices.BLL.Services.ApplicationService.DeleteApp
+             Additional Info: Заявка №1 была удалена из базы данных.
+
+             -------------- Info (2018-02-09 10:46:08.1583) --------------
+             
+             Call Site: HotelServices.BLL.Services.BookingService.GetRooms
+             Additional Info: Взяты все комнаты из базы данных.
+
+             -------------- Info (2018-02-09 10:46:08.2814) --------------
+             
+             Call Site: HotelServices.BLL.Services.BookingService.GetRoom
+             Additional Info: Взята комната №1 из базы данных.
+
+             -------------- Info (2018-02-09 10:46:08.3163) --------------
+             
+             Call Site: HotelServices.BLL.Services.BookingService.GetBooking
+             Additional Info: Взято бронирование №1 из базы данных.
+
+             -------------- Info (2018-02-09 10:46:08.3454) --------------
+             
+             Call Site: HotelServices.BLL.Services.BookingService.DeleteBooking
+             Additional Info: Бронирование №1 было удалено из базы данных.
+
+             -------------- Info (2018-02-09 13:10:32.7466) --------------
+             
+             Call Site: HotelServices.BLL.Services.ApplicationService.GetApplications
+             Additional Info: Взяты все заявки на бронирование из базы данных.
+
+             -------------- Info (2018-02-09 13:10:33.0837) --------------
+             
+             Call Site: HotelServices.BLL.Services.ApplicationService.GetApplication
+             Additional Info: Из базы данных была взята заявка на бронирование №1.
+
+             -------------- Info (2018-02-09 13:10:33.0987) --------------
+             
+             Call Site: HotelServices.BLL.Services.ApplicationService.DeleteApp
+             Additional Info: Заявка №1 была удалена из базы данных.
+
+             -------------- Info (2018-02-09 13:10:33.2097) --------------
+             
+             Call Site: HotelServices.BLL.Services.BookingService.GetRooms
+             Additional Info: Взяты все комнаты из базы данных.
+
+             -------------- Info (2018-02-09 13:10:33.2657) --------------
+             
+             Call Site: HotelServices.BLL.Services.BookingService.GetRoom
+             Additional Info: Взята комната №1 из базы данных.
+
+             -------------- Info (2018-02-09 13:10:33.2947) --------------
+             
+             Call Site: HotelServices.BLL.Services.BookingService.GetBooking
+             Additional Info: Взято бронирование №1 из базы данных.
+
+             -------------- Info (2018-02-09 13:10:33.3307) --------------
+             
+             Call Site: HotelServices.BLL.Services.BookingService.UpdateBooking
+             Additional Info: Бронирование №1 было обновлено в базе данных.
+
+             -------------- Info (2018-02-09 13:10:33.4997) --------------
+             
+             Call Site: HotelServices.BLL.Services.BookingService.DeleteBooking
+             Additional Info: Бронирование №1 было удалено из базы данных.
+
+             -------------- Info (2018-02-09 13:11:06.2876) --------------
+             
+             Call Site: HotelServices.BLL.Services.ApplicationService.GetApplications
+             Additional Info: Взяты все заявки на бронирование из базы данных.
+
+             -------------- Info (2018-02-09 13:11:06.4806) --------------
+             
+             Call Site: HotelServices.BLL.Services.ApplicationService.GetApplication
+             Additional Info: Из базы данных была взята заявка на бронирование №1.
+
+             -------------- Info (2018-02-09 13:11:06.4976) --------------
+             
+             Call Site: HotelServices.BLL.Services.ApplicationService.DeleteApp
+             Additional Info: Заявка №1 была удалена из базы данных.
+
+             -------------- Info (2018-02-09 13:11:06.5586) --------------
+             
+             Call Site: HotelServices.BLL.Services.BookingService.GetRooms
+             Additional Info: Взяты все комнаты из базы данных.
+
+             -------------- Info (2018-02-09 13:11:06.5926) --------------
+             
+             Call Site: HotelServices.BLL.Services.BookingService.GetRoom
+             Additional Info: Взята комната №1 из базы данных.
+
+             -------------- Info (2018-02-09 13:11:06.6256) --------------
+             
+             Call Site: HotelServices.BLL.Services.BookingService.GetBooking
+             Additional Info: Взято бронирование №1 из базы данных.
+
+             -------------- Info (2018-02-09 13:11:06.6446) --------------
+             
+             Call Site: HotelServices.BLL.Services.BookingService.DeleteBooking
+             Additional Info: Бронирование №1 было удалено из базы данных.
+
+             -------------- Info (2018-02-09 13:11:47.9026) --------------
+             
+             Call Site: HotelServices.BLL.Services.ApplicationService.GetApplications
+             Additional Info: Взяты все заявки на бронирование из базы данных.
+
+             -------------- Info (2018-02-09 13:11:48.1107) --------------
+             
+             Call Site: HotelServices.BLL.Services.ApplicationService.GetApplication
+             Additional Info: Из базы данных была взята заявка на бронирование №1.
+
+             -------------- Info (2018-02-09 13:11:48.1266) --------------
+             
+             Call Site: HotelServices.BLL.Services.ApplicationService.DeleteApp
+             Additional Info: Заявка №1 была удалена из базы данных.
+
+             -------------- Info (2018-02-09 13:11:48.1847) --------------
+             
+             Call Site: HotelServices.BLL.Services.BookingService.GetRooms
+             Additional Info: Взяты все комнаты из базы данных.
+
+             -------------- Info (2018-02-09 13:11:48.2177) --------------
+             
+             Call Site: HotelServices.BLL.Services.BookingService.GetRoom
+             Additional Info: Взята комната №1 из базы данных.
+
+             -------------- Info (2018-02-09 13:11:48.2477) --------------
+             
+             Call Site: HotelServices.BLL.Services.BookingService.GetBooking
+             Additional Info: Взято бронирование №1 из базы данных.
+
+             -------------- Info (2018-02-09 13:11:48.2657) --------------
+             
+             Call Site: HotelServices.BLL.Services.BookingService.DeleteBooking
+             Additional Info: Бронирование №1 было удалено из базы данных.
+
+             -------------- Info (2018-02-12 19:54:53.6738) --------------
+             
+             Call Site: HotelServices.BLL.Services.ApplicationService.GetApplications
+             Additional Info: Взяты все заявки на бронирование из базы данных.
+
+             -------------- Info (2018-02-12 19:54:53.9298) --------------
+             
+             Call Site: HotelServices.BLL.Services.ApplicationService.GetApplication
+             Additional Info: Из базы данных была взята заявка на бронирование №1.
+
+             -------------- Info (2018-02-12 19:54:53.9518) --------------
+             
+             Call Site: HotelServices.BLL.Services.ApplicationService.DeleteApp
+             Additional Info: Заявка №1 была удалена из базы данных.
+
+             -------------- Info (2018-02-12 19:54:54.0078) --------------
+             
+             Call Site: HotelServices.BLL.Services.BookingService.GetRooms
+             Additional Info: Взяты все комнаты из базы данных.
+
+             -------------- Info (2018-02-12 19:54:54.0608) --------------
+             
+             Call Site: HotelServices.BLL.Services.BookingService.GetRoom
+             Additional Info: Взята комната №1 из базы данных.
+
+             -------------- Info (2018-02-12 19:54:54.0898) --------------
+             
+             Call Site: HotelServices.BLL.Services.BookingService.GetBooking
+             Additional Info: Взято бронирование №1 из базы данных.
+
+             -------------- Info (2018-02-12 19:54:54.1058) --------------
+             
+             Call Site: HotelServices.BLL.Services.BookingService.DeleteBooking
+             Additional Info: Бронирование №1 было удалено из базы данных.
+
+             -------------- Info (2018-02-12 20:15:29.9375) --------------
+             
+             Call Site: HotelServices.BLL.Services.ApplicationService.GetApplications
+             Additional Info: Взяты все заявки на бронирование из базы данных.
+
+             -------------- Info (2018-02-12 20:15:30.1365) --------------
+             
+             Call Site: HotelServices.BLL.Services.ApplicationService.GetApplication
+             Additional Info: Из базы данных была взята заявка на бронирование №1.
+
+             -------------- Info (2018-02-12 20:15:30.1515) --------------
+             
+             Call Site: HotelServices.BLL.Services.ApplicationService.DeleteApp
+             Additional Info: Заявка №1 была удалена из базы данных.
+
+             -------------- Info (2018-02-12 20:15:30.2115) --------------
+             
+             Call Site: HotelServices.BLL.Services.BookingService.GetRooms
+             Additional Info: Взяты все комнаты из базы данных.
+
+             -------------- Info (2018-02-12 20:15:30.2465) --------------
+             
+             Call Site: HotelServices.BLL.Services.BookingService.GetRoom
+             Additional Info: Взята комната №1 из базы данных.
+
+             -------------- Info (2018-02-12 20:15:30.2765) --------------
+             
+             Call Site: HotelServices.BLL.Services.BookingService.GetBooking
+             Additional Info: Взято бронирование №1 из базы данных.
+
+             -------------- Info (2018-02-12 20:15:30.2946) --------------
+             
+             Call Site: HotelServices.BLL.Services.BookingService.DeleteBooking
+             Additional Info: Бронирование №1 было удалено из базы данных.
+
+             -------------- Info (2018-02-12 20:29:25.9524) --------------
+             
+             Call Site: HotelServices.BLL.Services.ApplicationService.SendApplication
+             Additional Info: Заявка №0 на бронирование номера оформлена и сохранена в базу данных.
+
+             -------------- Info (2018-02-12 20:29:26.5984) --------------
+             
+             Call Site: HotelServices.BLL.Services.ApplicationService.GetApplications
+             Additional Info: Взяты все заявки на бронирование из базы данных.
+
+             -------------- Info (2018-02-12 20:29:26.6974) --------------
+             
+             Call Site: HotelServices.BLL.Services.ApplicationService.GetApplication
+             Additional Info: Из базы данных была взята заявка на бронирование №1.
+
+             -------------- Info (2018-02-12 20:29:26.7314) --------------
+             
+             Call Site: HotelServices.BLL.Services.ApplicationService.DeleteApp
+             Additional Info: Заявка №1 была удалена из базы данных.
+
+             -------------- Info (2018-02-12 20:29:26.7694) --------------
+             
+             Call Site: HotelServices.BLL.Services.BookingService.GetRooms
+             Additional Info: Взяты все комнаты из базы данных.
+
+             -------------- Info (2018-02-12 20:29:26.8044) --------------
+             
+             Call Site: HotelServices.BLL.Services.BookingService.GetRoom
+             Additional Info: Взята комната №1 из базы данных.
+
+             -------------- Info (2018-02-12 20:29:26.8364) --------------
+             
+             Call Site: HotelServices.BLL.Services.BookingService.GetBooking
+             Additional Info: Взято бронирование №1 из базы данных.
+
+             -------------- Info (2018-02-12 20:29:26.8544) --------------
+             
+             Call Site: HotelServices.BLL.Services.BookingService.DeleteBooking
+             Additional Info: Бронирование №1 было удалено из базы данных.
+
+             -------------- Info (2018-02-12 20:30:06.6141) --------------
+             
+             Call Site: HotelServices.BLL.Services.ApplicationService.SendApplication
+             Additional Info: Заявка №0 на бронирование номера оформлена и сохранена в базу данных.
+
+             -------------- Info (2018-02-12 20:38:22.1906) --------------
+             
+             Call Site: HotelServices.BLL.Services.ApplicationService.GetApplications
+             Additional Info: Взяты все заявки на бронирование из базы данных.
+
+             -------------- Info (2018-02-12 20:38:22.3916) --------------
+             
+             Call Site: HotelServices.BLL.Services.ApplicationService.GetApplication
+             Additional Info: Из базы данных была взята заявка на бронирование №1.
+
+             -------------- Info (2018-02-12 20:38:22.4056) --------------
+             
+             Call Site: HotelServices.BLL.Services.ApplicationService.DeleteApp
+             Additional Info: Заявка №1 была удалена из базы данных.
+
+             -------------- Info (2018-02-12 20:38:22.4456) --------------
+             
+             Call Site: HotelServices.BLL.Services.ApplicationService.GetMessages
+             Additional Info: Взяты все сообщения из базы данных.
+
+             -------------- Info (2018-02-12 20:38:22.4846) --------------
+             
+             Call Site: HotelServices.BLL.Services.BookingService.GetRooms
+             Additional Info: Взяты все комнаты из базы данных.
+
+             -------------- Info (2018-02-12 20:38:22.5156) --------------
+             
+             Call Site: HotelServices.BLL.Services.BookingService.GetRoom
+             Additional Info: Взята комната №1 из базы данных.
+
+             -------------- Info (2018-02-12 20:38:22.5436) --------------
+             
+             Call Site: HotelServices.BLL.Services.BookingService.GetBooking
+             Additional Info: Взято бронирование №1 из базы данных.
+
+             -------------- Info (2018-02-12 20:38:22.5596) --------------
+             
+             Call Site: HotelServices.BLL.Services.BookingService.DeleteBooking
+             Additional Info: Бронирование №1 было удалено из базы данных.
+
+             -------------- Info (2018-02-12 20:52:07.0802) --------------
+             
+             Call Site: HotelServices.BLL.Services.ApplicationService.GetApplications
+             Additional Info: Взяты все заявки на бронирование из базы данных.
+
+             -------------- Info (2018-02-12 20:52:07.2712) --------------
+             
+             Call Site: HotelServices.BLL.Services.ApplicationService.GetApplication
+             Additional Info: Из базы данных была взята заявка на бронирование №1.
+
+             -------------- Info (2018-02-12 20:52:07.2862) --------------
+             
+             Call Site: HotelServices.BLL.Services.ApplicationService.DeleteApp
+             Additional Info: Заявка №1 была удалена из базы данных.
+
+             -------------- Info (2018-02-12 20:52:07.3242) --------------
+             
+             Call Site: HotelServices.BLL.Services.ApplicationService.GetMessages
+             Additional Info: Взяты все сообщения из базы данных.
+
+             -------------- Info (2018-02-12 20:52:07.3692) --------------
+             
+             Call Site: HotelServices.BLL.Services.BookingService.GetRooms
+             Additional Info: Взяты все комнаты из базы данных.
+
+             -------------- Info (2018-02-12 20:52:07.4012) --------------
+             
+             Call Site: HotelServices.BLL.Services.BookingService.GetRoom
+             Additional Info: Взята комната №1 из базы данных.
+
+             -------------- Info (2018-02-12 20:52:07.4312) --------------
+             
+             Call Site: HotelServices.BLL.Services.BookingService.GetBooking
+             Additional Info: Взято бронирование №1 из базы данных.
+
+             -------------- Info (2018-02-12 20:52:07.4472) --------------
+             
+             Call Site: HotelServices.BLL.Services.BookingService.DeleteBooking
+             Additional Info: Бронирование №1 было удалено из базы данных.
+
+             -------------- Info (2018-02-12 20:54:19.6748) --------------
+             
+             Call Site: HotelServices.BLL.Services.ApplicationService.GetApplications
+             Additional Info: Взяты все заявки на бронирование из базы данных.
+
+             -------------- Info (2018-02-12 20:54:19.8628) --------------
+             
+             Call Site: HotelServices.BLL.Services.ApplicationService.GetApplication
+             Additional Info: Из базы данных была взята заявка на бронирование №1.
+
+             -------------- Info (2018-02-12 20:54:19.8783) --------------
+             
+             Call Site: HotelServices.BLL.Services.ApplicationService.DeleteApp
+             Additional Info: Заявка №1 была удалена из базы данных.
+
+             -------------- Info (2018-02-12 20:54:19.9178) --------------
+             
+             Call Site: HotelServices.BLL.Services.ApplicationService.GetMessages
+             Additional Info: Взяты все сообщения из базы данных.
+
+             -------------- Info (2018-02-12 20:54:19.9643) --------------
+             
+             Call Site: HotelServices.BLL.Services.BookingService.GetRooms
+             Additional Info: Взяты все комнаты из базы данных.
+
+             -------------- Info (2018-02-12 20:54:19.9963) --------------
+             
+             Call Site: HotelServices.BLL.Services.BookingService.GetRoom
+             Additional Info: Взята комната №1 из базы данных.
+
+             -------------- Info (2018-02-12 20:54:20.0264) --------------
+             
+             Call Site: HotelServices.BLL.Services.BookingService.GetBooking
+             Additional Info: Взято бронирование №1 из базы данных.
+
+             -------------- Info (2018-02-12 20:54:20.0434) --------------
+             
+             Call Site: HotelServices.BLL.Services.BookingService.DeleteBooking
+             Additional Info: Бронирование №1 было удалено из базы данных.
+
+             -------------- Info (2018-02-12 20:55:02.6798) --------------
+             
+             Call Site: HotelServices.BLL.Services.ApplicationService.GetApplications
+             Additional Info: Взяты все заявки на бронирование из базы данных.
+
+             -------------- Info (2018-02-12 20:55:02.8443) --------------
+             
+             Call Site: HotelServices.BLL.Services.ApplicationService.GetApplication
+             Additional Info: Из базы данных была взята заявка на бронирование №1.
+
+             -------------- Info (2018-02-12 20:55:02.8598) --------------
+             
+             Call Site: HotelServices.BLL.Services.ApplicationService.DeleteApp
+             Additional Info: Заявка №1 была удалена из базы данных.
+
+             -------------- Info (2018-02-12 20:55:02.8993) --------------
+             
+             Call Site: HotelServices.BLL.Services.ApplicationService.GetMessages
+             Additional Info: Взяты все сообщения из базы данных.
+
+             -------------- Info (2018-02-12 20:55:02.9488) --------------
+             
+             Call Site: HotelServices.BLL.Services.BookingService.GetRooms
+             Additional Info: Взяты все комнаты из базы данных.
+
+             -------------- Info (2018-02-12 20:55:02.9798) --------------
+             
+             Call Site: HotelServices.BLL.Services.BookingService.GetRoom
+             Additional Info: Взята комната №1 из базы данных.
+
+             -------------- Info (2018-02-12 20:55:03.0093) --------------
+             
+             Call Site: HotelServices.BLL.Services.BookingService.GetBooking
+             Additional Info: Взято бронирование №1 из базы данных.
+
+             -------------- Info (2018-02-12 20:55:03.0258) --------------
+             
+             Call Site: HotelServices.BLL.Services.BookingService.DeleteBooking
+             Additional Info: Бронирование №1 было удалено из базы данных.
+
+             -------------- Info (2018-02-12 21:01:30.0656) --------------
+             
+             Call Site: HotelServices.BLL.Services.ApplicationService.GetApplications
+             Additional Info: Взяты все заявки на бронирование из базы данных.
+
+             -------------- Info (2018-02-12 21:01:30.2432) --------------
+             
+             Call Site: HotelServices.BLL.Services.ApplicationService.GetApplication
+             Additional Info: Из базы данных была взята заявка на бронирование №1.
+
+             -------------- Info (2018-02-12 21:01:30.2582) --------------
+             
+             Call Site: HotelServices.BLL.Services.ApplicationService.DeleteApp
+             Additional Info: Заявка №1 была удалена из базы данных.
+
+             -------------- Info (2018-02-12 21:01:30.2982) --------------
+             
+             Call Site: HotelServices.BLL.Services.ApplicationService.GetMessages
+             Additional Info: Взяты все сообщения из базы данных.
+
+             -------------- Info (2018-02-12 21:01:30.3472) --------------
+             
+             Call Site: HotelServices.BLL.Services.BookingService.GetRooms
+             Additional Info: Взяты все комнаты из базы данных.
+
+             -------------- Info (2018-02-12 21:01:30.3802) --------------
+             
+             Call Site: HotelServices.BLL.Services.BookingService.GetRoom
+             Additional Info: Взята комната №1 из базы данных.
+
+             -------------- Info (2018-02-12 21:01:30.4112) --------------
+             
+             Call Site: HotelServices.BLL.Services.BookingService.GetBooking
+             Additional Info: Взято бронирование №1 из базы данных.
+
+             -------------- Info (2018-02-12 21:01:30.4322) --------------
+             
+             Call Site: HotelServices.BLL.Services.BookingService.GetBookings
+             Additional Info: Взяты все бронирования из базы данных.
+
+             -------------- Info (2018-02-12 21:01:30.4547) --------------
+             
+             Call Site: HotelServices.BLL.Services.BookingService.DeleteBooking
+             Additional Info: Бронирование №1 было удалено из базы данных.
+
+             -------------- Info (2018-02-12 21:08:16.8415) --------------
+             
+             Call Site: HotelServices.BLL.Services.ApplicationService.GetApplications
+             Additional Info: Взяты все заявки на бронирование из базы данных.
+
+             -------------- Info (2018-02-12 21:08:17.0045) --------------
+             
+             Call Site: HotelServices.BLL.Services.ApplicationService.GetApplication
+             Additional Info: Из базы данных была взята заявка на бронирование №1.
+
+             -------------- Info (2018-02-12 21:08:17.0355) --------------
+             
+             Call Site: HotelServices.BLL.Services.ApplicationService.DeleteApp
+             Additional Info: Заявка №1 была удалена из базы данных.
+
+             -------------- Info (2018-02-12 21:08:17.0745) --------------
+             
+             Call Site: HotelServices.BLL.Services.ApplicationService.GetMessages
+             Additional Info: Взяты все сообщения из базы данных.
+
+             -------------- Info (2018-02-12 21:08:17.1215) --------------
+             
+             Call Site: HotelServices.BLL.Services.BookingService.GetRooms
+             Additional Info: Взяты все комнаты из базы данных.
+
+             -------------- Info (2018-02-12 21:08:17.1535) --------------
+             
+             Call Site: HotelServices.BLL.Services.BookingService.GetRoom
+             Additional Info: Взята комната №1 из базы данных.
+
+             -------------- Info (2018-02-12 21:08:17.1825) --------------
+             
+             Call Site: HotelServices.BLL.Services.BookingService.GetBooking
+             Additional Info: Взято бронирование №1 из базы данных.
+
+             -------------- Info (2018-02-12 21:08:17.2015) --------------
+             
+             Call Site: HotelServices.BLL.Services.BookingService.GetBookings
+             Additional Info: Взяты все бронирования из базы данных.
+
+             -------------- Info (2018-02-12 21:08:17.2345) --------------
+             
+             Call Site: HotelServices.BLL.Services.BookingService.UpdateBooking
+             Additional Info: Бронирование №1 было обновлено в базе данных.
+
+             -------------- Info (2018-02-12 21:08:17.4225) --------------
+             
+             Call Site: HotelServices.BLL.Services.BookingService.DeleteBooking
+             Additional Info: Бронирование №1 было удалено из базы данных.
+
+             -------------- Info (2018-02-12 21:08:24.5473) --------------
+             
+             Call Site: HotelServices.BLL.Services.ApplicationService.GetApplications
+             Additional Info: Взяты все заявки на бронирование из базы данных.
+
+             -------------- Info (2018-02-12 21:08:24.7083) --------------
+             
+             Call Site: HotelServices.BLL.Services.ApplicationService.GetApplication
+             Additional Info: Из базы данных была взята заявка на бронирование №1.
+
+             -------------- Info (2018-02-12 21:08:24.7233) --------------
+             
+             Call Site: HotelServices.BLL.Services.ApplicationService.DeleteApp
+             Additional Info: Заявка №1 была удалена из базы данных.
+
+             -------------- Info (2018-02-12 21:08:24.7623) --------------
+             
+             Call Site: HotelServices.BLL.Services.ApplicationService.GetMessages
+             Additional Info: Взяты все сообщения из базы данных.
+
+             -------------- Info (2018-02-12 21:08:24.8103) --------------
+             
+             Call Site: HotelServices.BLL.Services.BookingService.GetRooms
+             Additional Info: Взяты все комнаты из базы данных.
+
+             -------------- Info (2018-02-12 21:08:24.8423) --------------
+             
+             Call Site: HotelServices.BLL.Services.BookingService.GetRoom
+             Additional Info: Взята комната №1 из базы данных.
+
+             -------------- Info (2018-02-12 21:08:24.8783) --------------
+             
+             Call Site: HotelServices.BLL.Services.BookingService.GetBooking
+             Additional Info: Взято бронирование №1 из базы данных.
+
+             -------------- Info (2018-02-12 21:08:24.8973) --------------
+             
+             Call Site: HotelServices.BLL.Services.BookingService.GetBookings
+             Additional Info: Взяты все бронирования из базы данных.
+
+             -------------- Info (2018-02-12 21:08:24.9343) --------------
+             
+             Call Site: HotelServices.BLL.Services.BookingService.UpdateBooking
+             Additional Info: Бронирование №1 было обновлено в базе данных.
+
+             -------------- Info (2018-02-12 21:08:25.0113) --------------
+             
+             Call Site: HotelServices.BLL.Services.BookingService.DeleteBooking
+             Additional Info: Бронирование №1 было удалено из базы данных.
+
+             -------------- Info (2018-02-12 21:08:29.7086) --------------
+             
+             Call Site: HotelServices.BLL.Services.ApplicationService.GetApplications
+             Additional Info: Взяты все заявки на бронирование из базы данных.
+
+             -------------- Info (2018-02-12 21:08:29.8746) --------------
+             
+             Call Site: HotelServices.BLL.Services.ApplicationService.GetApplication
+             Additional Info: Из базы данных была взята заявка на бронирование №1.
+
+             -------------- Info (2018-02-12 21:08:29.8746) --------------
+             
+             Call Site: HotelServices.BLL.Services.ApplicationService.DeleteApp
+             Additional Info: Заявка №1 была удалена из базы данных.
+
+             -------------- Info (2018-02-12 21:08:29.9286) --------------
+             
+             Call Site: HotelServices.BLL.Services.ApplicationService.GetMessages
+             Additional Info: Взяты все сообщения из базы данных.
+
+             -------------- Info (2018-02-12 21:08:29.9756) --------------
+             
+             Call Site: HotelServices.BLL.Services.BookingService.GetRooms
+             Additional Info: Взяты все комнаты из базы данных.
+
+             -------------- Info (2018-02-12 21:08:30.0096) --------------
+             
+             Call Site: HotelServices.BLL.Services.BookingService.GetRoom
+             Additional Info: Взята комната №1 из базы данных.
+
+             -------------- Info (2018-02-12 21:08:30.0386) --------------
+             
+             Call Site: HotelServices.BLL.Services.BookingService.GetBooking
+             Additional Info: Взято бронирование №1 из базы данных.
+
+             -------------- Info (2018-02-12 21:08:30.0576) --------------
+             
+             Call Site: HotelServices.BLL.Services.BookingService.GetBookings
+             Additional Info: Взяты все бронирования из базы данных.
+
+             -------------- Info (2018-02-12 21:08:30.0946) --------------
+             
+             Call Site: HotelServices.BLL.Services.BookingService.UpdateBooking
+             Additional Info: Бронирование №1 было обновлено в базе данных.
+
+             -------------- Info (2018-02-12 21:08:30.1666) --------------
+             
+             Call Site: HotelServices.BLL.Services.BookingService.DeleteBooking
+             Additional Info: Бронирование №1 было удалено из базы данных.
+
+             -------------- Info (2018-02-12 21:09:41.6755) --------------
+             
+             Call Site: HotelServices.BLL.Services.ApplicationService.GetApplications
+             Additional Info: Взяты все заявки на бронирование из базы данных.
+
+             -------------- Info (2018-02-12 21:09:41.8415) --------------
+             
+             Call Site: HotelServices.BLL.Services.ApplicationService.GetApplication
+             Additional Info: Из базы данных была взята заявка на бронирование №1.
+
+             -------------- Info (2018-02-12 21:09:41.8565) --------------
+             
+             Call Site: HotelServices.BLL.Services.ApplicationService.DeleteApp
+             Additional Info: Заявка №1 была удалена из базы данных.
+
+             -------------- Info (2018-02-12 21:09:41.8965) --------------
+             
+             Call Site: HotelServices.BLL.Services.ApplicationService.GetMessages
+             Additional Info: Взяты все сообщения из базы данных.
+
+             -------------- Info (2018-02-12 21:09:41.9460) --------------
+             
+             Call Site: HotelServices.BLL.Services.BookingService.GetRooms
+             Additional Info: Взяты все комнаты из базы данных.
+
+             -------------- Info (2018-02-12 21:09:41.9801) --------------
+             
+             Call Site: HotelServices.BLL.Services.BookingService.GetRoom
+             Additional Info: Взята комната №1 из базы данных.
+
+             -------------- Info (2018-02-12 21:09:42.0116) --------------
+             
+             Call Site: HotelServices.BLL.Services.BookingService.GetBooking
+             Additional Info: Взято бронирование №1 из базы данных.
+
+             -------------- Info (2018-02-12 21:09:42.0316) --------------
+             
+             Call Site: HotelServices.BLL.Services.BookingService.GetBookings
+             Additional Info: Взяты все бронирования из базы данных.
+
+             -------------- Info (2018-02-12 21:09:42.0546) --------------
+             
+             Call Site: HotelServices.BLL.Services.BookingService.DeleteBooking
+             Additional Info: Бронирование №1 было удалено из базы данных.
+
+             -------------- Info (2018-02-12 21:11:08.0125) --------------
+             
+             Call Site: HotelServices.BLL.Services.ApplicationService.GetApplications
+             Additional Info: Взяты все заявки на бронирование из базы данных.
+
+             -------------- Info (2018-02-12 21:11:08.1876) --------------
+             
+             Call Site: HotelServices.BLL.Services.ApplicationService.GetApplication
+             Additional Info: Из базы данных была взята заявка на бронирование №1.
+
+             -------------- Info (2018-02-12 21:11:08.2031) --------------
+             
+             Call Site: HotelServices.BLL.Services.ApplicationService.DeleteApp
+             Additional Info: Заявка №1 была удалена из базы данных.
+
+             -------------- Info (2018-02-12 21:11:08.2431) --------------
+             
+             Call Site: HotelServices.BLL.Services.ApplicationService.GetMessages
+             Additional Info: Взяты все сообщения из базы данных.
+
+             -------------- Info (2018-02-12 21:11:08.2921) --------------
+             
+             Call Site: HotelServices.BLL.Services.BookingService.GetRooms
+             Additional Info: Взяты все комнаты из базы данных.
+
+             -------------- Info (2018-02-12 21:11:08.3241) --------------
+             
+             Call Site: HotelServices.BLL.Services.BookingService.GetRoom
+             Additional Info: Взята комната №1 из базы данных.
+
+             -------------- Info (2018-02-12 21:11:08.3536) --------------
+             
+             Call Site: HotelServices.BLL.Services.BookingService.GetBooking
+             Additional Info: Взято бронирование №1 из базы данных.
+
+             -------------- Info (2018-02-12 21:11:08.3736) --------------
+             
+             Call Site: HotelServices.BLL.Services.BookingService.GetBookings
+             Additional Info: Взяты все бронирования из базы данных.
+
+             -------------- Info (2018-02-12 21:11:08.3981) --------------
+             
+             Call Site: HotelServices.BLL.Services.BookingService.DeleteBooking
+             Additional Info: Бронирование №1 было удалено из базы данных.
+
+             -------------- Info (2018-02-12 21:17:34.9641) --------------
+             
+             Call Site: HotelServices.BLL.Services.ApplicationService.GetApplications
+             Additional Info: Взяты все заявки на бронирование из базы данных.
+
+             -------------- Info (2018-02-12 21:17:35.1432) --------------
+             
+             Call Site: HotelServices.BLL.Services.ApplicationService.GetApplication
+             Additional Info: Из базы данных была взята заявка на бронирование №1.
+
+             -------------- Info (2018-02-12 21:17:35.1587) --------------
+             
+             Call Site: HotelServices.BLL.Services.ApplicationService.DeleteApp
+             Additional Info: Заявка №1 была удалена из базы данных.
+
+             -------------- Info (2018-02-12 21:17:35.1987) --------------
+             
+             Call Site: HotelServices.BLL.Services.ApplicationService.GetMessages
+             Additional Info: Взяты все сообщения из базы данных.
+
+             -------------- Info (2018-02-12 21:17:35.2487) --------------
+             
+             Call Site: HotelServices.BLL.Services.BookingService.GetRooms
+             Additional Info: Взяты все комнаты из базы данных.
+
+             -------------- Info (2018-02-12 21:17:35.2802) --------------
+             
+             Call Site: HotelServices.BLL.Services.BookingService.GetRoom
+             Additional Info: Взята комната №1 из базы данных.
+
+             -------------- Info (2018-02-12 21:17:35.3112) --------------
+             
+             Call Site: HotelServices.BLL.Services.BookingService.GetBooking
+             Additional Info: Взято бронирование №1 из базы данных.
+
+             -------------- Info (2018-02-12 21:17:35.3302) --------------
+             
+             Call Site: HotelServices.BLL.Services.BookingService.GetBookings
+             Additional Info: Взяты все бронирования из базы данных.
+
+             -------------- Info (2018-02-12 21:17:35.3537) --------------
+             
+             Call Site: HotelServices.BLL.Services.BookingService.DeleteBooking
+             Additional Info: Бронирование №1 было удалено из базы данных.
+
+             -------------- Info (2018-02-12 21:17:35.3787) --------------
+             
+             Call Site: HotelServices.BLL.Services.ReviewService.GetReviews
+             Additional Info: Взяты все отзывы из базы данных.
+
+             -------------- Info (2018-02-12 21:18:38.5538) --------------
+             
+             Call Site: HotelServices.BLL.Services.ApplicationService.GetApplications
+             Additional Info: Взяты все заявки на бронирование из базы данных.
+
+             -------------- Info (2018-02-12 21:18:38.7183) --------------
+             
+             Call Site: HotelServices.BLL.Services.ApplicationService.GetApplication
+             Additional Info: Из базы данных была взята заявка на бронирование №1.
+
+             -------------- Info (2018-02-12 21:18:38.7353) --------------
+             
+             Call Site: HotelServices.BLL.Services.ApplicationService.DeleteApp
+             Additional Info: Заявка №1 была удалена из базы данных.
+
+             -------------- Info (2018-02-12 21:18:38.7743) --------------
+             
+             Call Site: HotelServices.BLL.Services.ApplicationService.GetMessages
+             Additional Info: Взяты все сообщения из базы данных.
+
+             -------------- Info (2018-02-12 21:18:38.8223) --------------
+             
+             Call Site: HotelServices.BLL.Services.BookingService.GetRooms
+             Additional Info: Взяты все комнаты из базы данных.
+
+             -------------- Info (2018-02-12 21:18:38.8538) --------------
+             
+             Call Site: HotelServices.BLL.Services.BookingService.GetRoom
+             Additional Info: Взята комната №1 из базы данных.
+
+             -------------- Info (2018-02-12 21:18:38.8833) --------------
+             
+             Call Site: HotelServices.BLL.Services.BookingService.GetBooking
+             Additional Info: Взято бронирование №1 из базы данных.
+
+             -------------- Info (2018-02-12 21:18:38.9028) --------------
+             
+             Call Site: HotelServices.BLL.Services.BookingService.GetBookings
+             Additional Info: Взяты все бронирования из базы данных.
+
+             -------------- Info (2018-02-12 21:18:38.9268) --------------
+             
+             Call Site: HotelServices.BLL.Services.BookingService.DeleteBooking
+             Additional Info: Бронирование №1 было удалено из базы данных.
+
+             -------------- Info (2018-02-12 21:18:38.9513) --------------
+             
+             Call Site: HotelServices.BLL.Services.ReviewService.GetReviews
+             Additional Info: Взяты все отзывы из базы данных.
+
+             -------------- Info (2018-02-12 21:18:38.9748) --------------
+             
+             Call Site: HotelServices.BLL.Services.ReviewService.GetReview
+             Additional Info: Взят отзыв №1 из базы данных.
+
+             -------------- Info (2018-02-12 21:20:17.6234) --------------
+             
+             Call Site: HotelServices.BLL.Services.ApplicationService.GetApplications
+             Additional Info: Взяты все заявки на бронирование из базы данных.
+
+             -------------- Info (2018-02-12 21:20:17.7924) --------------
+             
+             Call Site: HotelServices.BLL.Services.ApplicationService.GetApplication
+             Additional Info: Из базы данных была взята заявка на бронирование №1.
+
+             -------------- Info (2018-02-12 21:20:17.8074) --------------
+             
+             Call Site: HotelServices.BLL.Services.ApplicationService.DeleteApp
+             Additional Info: Заявка №1 была удалена из базы данных.
+
+             -------------- Info (2018-02-12 21:20:17.8469) --------------
+             
+             Call Site: HotelServices.BLL.Services.ApplicationService.GetMessages
+             Additional Info: Взяты все сообщения из базы данных.
+
+             -------------- Info (2018-02-12 21:20:17.8969) --------------
+             
+             Call Site: HotelServices.BLL.Services.BookingService.GetRooms
+             Additional Info: Взяты все комнаты из базы данных.
+
+             -------------- Info (2018-02-12 21:20:17.9294) --------------
+             
+             Call Site: HotelServices.BLL.Services.BookingService.GetRoom
+             Additional Info: Взята комната №1 из базы данных.
+
+             -------------- Info (2018-02-12 21:20:17.9584) --------------
+             
+             Call Site: HotelServices.BLL.Services.BookingService.GetBooking
+             Additional Info: Взято бронирование №1 из базы данных.
+
+             -------------- Info (2018-02-12 21:20:17.9794) --------------
+             
+             Call Site: HotelServices.BLL.Services.BookingService.GetBookings
+             Additional Info: Взяты все бронирования из базы данных.
+
+             -------------- Info (2018-02-12 21:20:18.0024) --------------
+             
+             Call Site: HotelServices.BLL.Services.BookingService.DeleteBooking
+             Additional Info: Бронирование №1 было удалено из базы данных.
+
+             -------------- Info (2018-02-12 21:20:18.0274) --------------
+             
+             Call Site: HotelServices.BLL.Services.ReviewService.GetReviews
+             Additional Info: Взяты все отзывы из базы данных.
+
+             -------------- Info (2018-02-12 21:20:18.0524) --------------
+             
+             Call Site: HotelServices.BLL.Services.ReviewService.GetReview
+             Additional Info: Взят отзыв №1 из базы данных.
+
+             -------------- Info (2018-02-12 21:20:18.0644) --------------
+             
+             Call Site: HotelServices.BLL.Services.ReviewService.DeleteReview
+             Additional Info: Отзыв №1 удален из базы данных.
+
+             -------------- Info (2018-02-13 11:04:09.3043) --------------
+             
+             Call Site: HotelServices.BLL.Services.ApplicationService.GetApplications
+             Additional Info: Взяты все заявки на бронирование из базы данных.
+
+             -------------- Info (2018-02-13 11:04:09.5873) --------------
+             
+             Call Site: HotelServices.BLL.Services.ApplicationService.GetApplication
+             Additional Info: Из базы данных была взята заявка на бронирование №1.
+
+             -------------- Info (2018-02-13 11:04:09.6393) --------------
+             
+             Call Site: HotelServices.BLL.Services.ApplicationService.DeleteApp
+             Additional Info: Заявка №1 была удалена из базы данных.
+
+             -------------- Info (2018-02-13 11:04:09.7193) --------------
+             
+             Call Site: HotelServices.BLL.Services.ApplicationService.GetMessages
+             Additional Info: Взяты все сообщения из базы данных.
+
+             -------------- Info (2018-02-13 11:04:09.8163) --------------
+             
+             Call Site: HotelServices.BLL.Services.BookingService.GetRooms
+             Additional Info: Взяты все комнаты из базы данных.
+
+             -------------- Info (2018-02-13 11:04:09.8593) --------------
+             
+             Call Site: HotelServices.BLL.Services.BookingService.GetRoom
+             Additional Info: Взята комната №1 из базы данных.
+
+             -------------- Info (2018-02-13 11:04:09.8903) --------------
+             
+             Call Site: HotelServices.BLL.Services.BookingService.GetBooking
+             Additional Info: Взято бронирование №1 из базы данных.
+
+             -------------- Info (2018-02-13 11:04:09.9173) --------------
+             
+             Call Site: HotelServices.BLL.Services.BookingService.GetBookings
+             Additional Info: Взяты все бронирования из базы данных.
+
+             -------------- Info (2018-02-13 11:04:09.9463) --------------
+             
+             Call Site: HotelServices.BLL.Services.BookingService.DeleteBooking
+             Additional Info: Бронирование №1 было удалено из базы данных.
+
+             -------------- Info (2018-02-13 11:04:09.9723) --------------
+             
+             Call Site: HotelServices.BLL.Services.ReviewService.GetReviews
+             Additional Info: Взяты все отзывы из базы данных.
+
+             -------------- Info (2018-02-13 11:04:09.9883) --------------
+             
+             Call Site: HotelServices.BLL.Services.ReviewService.GetReview
+             Additional Info: Взят отзыв №1 из базы данных.
+
+             -------------- Info (2018-02-13 11:04:09.9983) --------------
+             
+             Call Site: HotelServices.BLL.Services.ReviewService.DeleteReview
+             Additional Info: Отзыв №1 удален из базы данных.
+
+             -------------- Info (2018-02-13 13:05:37.7955) --------------
+             
+             Call Site: HotelServices.BLL.Services.ApplicationService.GetApplications
+             Additional Info: Взяты все заявки на бронирование из базы данных.
+
+             -------------- Info (2018-02-13 13:05:38.1415) --------------
+             
+             Call Site: HotelServices.BLL.Services.ApplicationService.GetApplication
+             Additional Info: Из базы данных была взята заявка на бронирование №1.
+
+             -------------- Info (2018-02-13 13:05:38.2445) --------------
+             
+             Call Site: HotelServices.BLL.Services.ApplicationService.DeleteApp
+             Additional Info: Заявка №1 была удалена из базы данных.
+
+             -------------- Info (2018-02-13 13:05:38.2995) --------------
+             
+             Call Site: HotelServices.BLL.Services.ApplicationService.GetMessages
+             Additional Info: Взяты все сообщения из базы данных.
+
+             -------------- Info (2018-02-13 13:05:38.3576) --------------
+             
+             Call Site: HotelServices.BLL.Services.BookingService.GetRooms
+             Additional Info: Взяты все комнаты из базы данных.
+
+             -------------- Info (2018-02-13 13:05:38.3916) --------------
+             
+             Call Site: HotelServices.BLL.Services.BookingService.GetRoom
+             Additional Info: Взята комната №1 из базы данных.
+
+             -------------- Info (2018-02-13 13:05:38.4266) --------------
+             
+             Call Site: HotelServices.BLL.Services.BookingService.GetBooking
+             Additional Info: Взято бронирование №1 из базы данных.
+
+             -------------- Info (2018-02-13 13:05:38.4866) --------------
+             
+             Call Site: HotelServices.BLL.Services.BookingService.GetBookings
+             Additional Info: Взяты все бронирования из базы данных.
+
+             -------------- Info (2018-02-13 13:05:38.5166) --------------
+             
+             Call Site: HotelServices.BLL.Services.BookingService.DeleteBooking
+             Additional Info: Бронирование №1 было удалено из базы данных.
+
+             -------------- Info (2018-02-13 13:05:38.6066) --------------
+             
+             Call Site: HotelServices.BLL.Services.ReviewService.GetReviews
+             Additional Info: Взяты все отзывы из базы данных.
+
+             -------------- Info (2018-02-13 13:05:38.6286) --------------
+             
+             Call Site: HotelServices.BLL.Services.ReviewService.GetReview
+             Additional Info: Взят отзыв №1 из базы данных.
+
+             -------------- Info (2018-02-13 13:05:38.6396) --------------
+             
+             Call Site: HotelServices.BLL.Services.ReviewService.DeleteReview
+             Additional Info: Отзыв №1 удален из базы данных.
+

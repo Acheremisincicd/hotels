@@ -1,0 +1,17 @@
+C:\Users\Виталий\source\repos\HotelServices\HotelServices.DAL\bin\Debug\HotelServices.DAL.dll.config
+C:\Users\Виталий\source\repos\HotelServices\HotelServices.DAL\bin\Debug\HotelServices.DAL.dll
+C:\Users\Виталий\source\repos\HotelServices\HotelServices.DAL\bin\Debug\HotelServices.DAL.pdb
+C:\Users\Виталий\source\repos\HotelServices\HotelServices.DAL\bin\Debug\EntityFramework.dll
+C:\Users\Виталий\source\repos\HotelServices\HotelServices.DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Виталий\source\repos\HotelServices\HotelServices.DAL\bin\Debug\Microsoft.Analytics.Interfaces.dll
+C:\Users\Виталий\source\repos\HotelServices\HotelServices.DAL\bin\Debug\Microsoft.Analytics.Types.dll
+C:\Users\Виталий\source\repos\HotelServices\HotelServices.DAL\bin\Debug\EntityFramework.xml
+C:\Users\Виталий\source\repos\HotelServices\HotelServices.DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Виталий\source\repos\HotelServices\HotelServices.DAL\obj\Debug\HotelServices.DAL.csprojResolveAssemblyReference.cache
+C:\Users\Виталий\source\repos\HotelServices\HotelServices.DAL\obj\Debug\HotelServices.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Виталий\source\repos\HotelServices\HotelServices.DAL\obj\Debug\HotelServices.DAL.dll
+C:\Users\Виталий\source\repos\HotelServices\HotelServices.DAL\obj\Debug\HotelServices.DAL.pdb
+C:\Users\Виталий\source\repos\HotelServices\HotelServices.DAL\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Виталий\source\repos\HotelServices\HotelServices.DAL\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Виталий\source\repos\HotelServices\HotelServices.DAL\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Виталий\source\repos\HotelServices\HotelServices.DAL\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml

@@ -1,0 +1,74 @@
+﻿@model HotelServices.WEB.Models.BookingViewModel
+
+@{
+    ViewBag.Title = "Подтверждение платежа";
+}
+
+<div class="cab">
+    @Html.ActionLink("Мой профиль", "PersonalAccount", new { UserEmail = User.Identity.Name })
+    @Html.ActionLink("Мои сообщения", "MyMessageList", new { UserEmail = User.Identity.Name })
+    @Html.ActionLink("Мои бронирования", "MyBookingList", new { UserEmail = User.Identity.Name })
+    @Html.ActionLink("Мои заявки", "MyApplicationList", new { UserEmail = User.Identity.Name })
+</div>
+<div class="content">
+    <div id="personalInfo">
+        <b>Дата въезда:</b> @Model.CheckIn.ToString().Substring(0, 10) <br />
+        <b>Дата выезда:</b> @Model.CheckOut.ToString().Substring(0, 10) <br />
+        <b>Класс номера:</b> @Model.Room.Class <br />
+        <b>Количество мест:</b> @Model.Room.Seats <br />
+        <b>На кого оформляется оплата:</b> @ViewBag.ClientName <br />
+        <div>
+            <b>Сумма оплаты:</b> @Model.Sum <br />
+
+            @{var cashAccount = @ViewBag.СashAccount;}
+            @if (Model.Sum > cashAccount)
+            {
+                <b style="color: red;">Текущий баланс: @ViewBag.СashAccount</b>
+            }
+            else
+            {
+                <b style="color: #0d8800;">Текущий баланс: @ViewBag.СashAccount</b>
+            }
+
+        </div>
+    </div>
+    @using (Html.BeginForm())
+    {
+        @Html.HiddenFor(model => model.Id)
+        @Html.HiddenFor(model => model.ApplicationId)
+        @Html.HiddenFor(model => model.CheckIn)
+        @Html.HiddenFor(model => model.CheckOut)
+        @Html.HiddenFor(model => model.IsPaid)
+        @Html.HiddenFor(model => model.Room.Bookings)
+        @Html.HiddenFor(model => model.Room.Class)
+        @Html.HiddenFor(model => model.Room.Id)
+        @Html.HiddenFor(model => model.Room.ImageURL)
+        @Html.HiddenFor(model => model.Room.Price)
+        @Html.HiddenFor(model => model.Room.Seats)
+        @Html.HiddenFor(model => model.Room.Status)
+        @Html.HiddenFor(model => model.Room.ImageURL)
+        @Html.HiddenFor(model => model.Room.Price)
+        @Html.HiddenFor(model => model.UserEmail)
+        @Html.HiddenFor(model => model.RoomId)
+        @Html.HiddenFor(model => model.Sum)
+        @Html.HiddenFor(model => model.Time)
+        @Html.HiddenFor(model => model.UserId)
+        <input type="hidden" name="Address" value="@ViewBag.Address" />
+        <input type="hidden" name="ClientName" value="@ViewBag.ClientName" />
+        <input type="hidden" name="Email" value="@ViewBag.Email" />
+        <input type="hidden" name="Password" value="@ViewBag.Password" />
+        <input type="hidden" name="Role" value="@ViewBag.Role" />
+        <input type="hidden" name="UserName" value="@ViewBag.UserName" />
+        <input type="hidden" name="СashAccount" value="@ViewBag.СashAccount" />
+
+        if (Model.Sum > cashAccount)
+        {
+            <input type="submit" style="margin-left: 30px;" value="Подтвердить оплату" disabled class="subm" />
+        }
+        else
+        {
+            <input type="submit" style="margin-left: 30px;" value="Подтвердить оплату" class="subm" />
+        }
+    }
+</div>
+

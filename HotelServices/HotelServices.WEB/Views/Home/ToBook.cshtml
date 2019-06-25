@@ -1,0 +1,36 @@
+﻿@model HotelServices.WEB.Models.BookingViewModel
+
+@{
+    ViewBag.Title = "Бронирование номера";
+}
+
+<h2>Выберите даты, на который хотите забронировать данный номер</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+<div class="fields">
+    @Html.ValidationSummary(true)
+    <input type="hidden" name="RoomId" value="@Model.RoomId" />
+   
+    <div>
+        @Html.LabelFor(model => model.CheckIn)
+        <div>
+            <input type="date" name="CheckIn" min="@DateTime.Now.ToString("yyyy/MM/dd").Substring(0, 10).Replace(".", "-")" max="@DateTime.Now.AddMonths(1).ToString("yyyy/MM/dd").Substring(0, 10).Replace(".", "-")" value="@DateTime.Now.ToString("yyyy/MM/dd").Substring(0, 10).Replace(".", "-")" />
+            @Html.ValidationMessageFor(model => model.CheckIn)
+        </div>
+    </div>
+
+    <div>
+        @Html.LabelFor(model => model.CheckOut)
+        <div>
+            <input type="date" name="CheckOut" min="@DateTime.Now.AddDays(1).ToString("yyyy/MM/dd").Substring(0, 10).Replace(".", "-")" max="@DateTime.Now.AddMonths(1).ToString("yyyy/MM/dd").Substring(0, 10).Replace(".", "-")" value="@DateTime.Now.AddDays(1).ToString("yyyy/MM/dd").Substring(0, 10).Replace(".", "-")" />
+            @Html.ValidationMessageFor(model => model.CheckOut)
+        </div>
+    </div>
+    <div>
+        <input type="submit" value="Забронировать" class="subm" />
+    </div>
+</div>
+}

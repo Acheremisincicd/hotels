@@ -1,0 +1,47 @@
+﻿@model IEnumerable<HotelServices.WEB.Models.MessageViewModel>
+
+@{
+    ViewBag.Title = "Мои сообщения";
+}
+
+
+<div class="cab">
+    @Html.ActionLink("Мой профиль", "PersonalAccount", new { UserEmail = User.Identity.Name })
+    @Html.ActionLink("Мои сообщения", "MyMessageList", new { UserEmail = User.Identity.Name })
+    @Html.ActionLink("Мои бронирования", "MyBookingList", new { UserEmail = User.Identity.Name })
+    @Html.ActionLink("Мои заявки", "MyApplicationList", new { UserEmail = User.Identity.Name })
+</div>
+
+<div class="content">
+    <table class="Mes">
+        <tr>
+            <th class="fTH">
+                @Html.DisplayNameFor(model => model.DateTime)
+            </th>
+            <th class="sTH">
+                @Html.DisplayNameFor(model => model.MessageText)
+            </th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td class="fTH">
+                    @Html.DisplayFor(modelItem => item.DateTime).ToString().Substring(0, 16)
+                </td>
+                
+                <td class="sTH">
+                    @Html.DisplayFor(modelItem => item.MessageText)
+                    @if (item.BookingId != 0)
+                    {
+
+                        @Html.ActionLink("Отказаться", "Refuse", new { id = item.BookingId, UserEmail = item.UserEmail }, new { @class = "choise" })
+                        @Html.ActionLink("Подтвердить бронирование", "Confirm", new { UserEmail = item.UserEmail }, new { @class = "choise" })
+                    }
+                    <hr />
+                </td>
+            </tr>
+        }
+
+    </table>
+</div>

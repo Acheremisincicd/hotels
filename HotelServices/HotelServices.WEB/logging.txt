@@ -1,0 +1,1 @@
+2018-02-06 19:42:10.2138|INFO|HotelServices.WEB.Controllers.HomeController|Sample informational message

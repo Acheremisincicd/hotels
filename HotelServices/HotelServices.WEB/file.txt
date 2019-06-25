@@ -1,0 +1,6 @@
+2018-02-06 22:57:37.5267|INFO|HotelServices.BLL.Services.BookingService|Sample info message
+2018-02-06 22:57:37.6252|TRACE|HotelServices.BLL.Services.BookingService|Sample trace message
+2018-02-06 22:57:37.6252|DEBUG|HotelServices.BLL.Services.BookingService|Sample debug message
+2018-02-06 22:57:37.6517|WARN|HotelServices.BLL.Services.BookingService|Sample warning message
+2018-02-06 22:57:37.6582|ERROR|HotelServices.BLL.Services.BookingService|Sample error message
+2018-02-06 22:57:37.6582|FATAL|HotelServices.BLL.Services.BookingService|Sample fatal error message
